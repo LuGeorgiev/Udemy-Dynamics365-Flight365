@@ -1,6 +1,5 @@
-"use strict";
-/// <reference path="../../node_modules/@types/knockout/index.d.ts" />
-Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="../../../node_modules/@types/knockout/index.d.ts" />
+//import { fail } from "assert";
 var sf365;
 (function (sf365) {
     var checkin;
@@ -14,6 +13,7 @@ var sf365;
             };
             return CheckInViewModel;
         }());
+        checkin.CheckInViewModel = CheckInViewModel;
     })(checkin = sf365.checkin || (sf365.checkin = {}));
 })(sf365 || (sf365 = {}));
 //# sourceMappingURL=checkin.js.map

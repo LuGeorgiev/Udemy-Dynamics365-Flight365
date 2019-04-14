@@ -27,7 +27,7 @@ namespace SF365.Plugins
 
         protected override void ExecuteCrmPlugin(LocalPluginContext localcontext)
         {
-            throw new InvalidPluginExecutionException("Wrong on it..");
+            throw new InvalidPluginExecutionException("Working on it..");
         }
     }
 }

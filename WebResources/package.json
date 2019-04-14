@@ -1,7 +1,6 @@
 {
   "name": "sf365",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +12,8 @@
     "@types/node": "^11.13.4"
   },
   "dependencies": {
-    "knockout": "^3.5.0"
-  }
+    "knockout": "^3.5.0",
+    "qunit": "^2.9.2"
+  },
+  "description": ""
 }

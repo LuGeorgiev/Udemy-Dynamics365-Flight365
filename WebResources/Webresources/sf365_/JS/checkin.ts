@@ -1,10 +1,10 @@
-﻿/// <reference path="../../node_modules/@types/knockout/index.d.ts" />
+﻿/// <reference path="../../../node_modules/@types/knockout/index.d.ts" />
 
-import { fail } from "assert";
+//import { fail } from "assert";
 
 namespace sf365.checkin
 {
-    class CheckInViewModel
+    export class CheckInViewModel
     {
         isBusy: KnockoutObservable<boolean>;
 
