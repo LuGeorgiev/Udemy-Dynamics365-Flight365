@@ -134,7 +134,8 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="bin\WebResources.dll" />
     <Content Include="bin\WebResources.pdb" />
-    <Content Include="Webresources\sf365_\JS\checkin.js" />
+    <Content Include="gulpfile.js" />
+    <Content Include="Webresources\sf365_\js\checkin.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -155,6 +156,8 @@
     <Content Include="bin\WebResources.dll.config" />
     <Content Include="bin\coretools\LicenseTerms.docx" />
     <Content Include="bin\coretools\CrmSvcUtil.exe.config" />
+    <Content Include="ClientHooks\tsconfig.json" />
+    <Content Include="package.json" />
     <None Include="packages.config" />
     <Content Include="spkl\unpack.bat" />
     <Content Include="spkl\pack+import.bat" />
@@ -165,6 +168,7 @@
     <Content Include="spkl\deploy-webresources.bat" />
     <Content Include="spkl\deploy-plugins.bat" />
     <Content Include="spkl.json" />
+    <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -173,14 +177,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ClientUI\src\" />
     <Folder Include="node_modules\%40types\knockout\" />
-    <Folder Include="Webresources\sf365_\HTML\" />
-    <Folder Include="Webresources\sf365_\images\" />
+    <Folder Include="Webresources\sf365_\html\" />
+    <Folder Include="Webresources\sf365_\imgs\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="bin\sf365_\JS\checkin.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\forms\passanger-form .ts" />
+    <TypeScriptCompile Include="ClientHooks\src\forms\booking-form.ts" />
+    <TypeScriptCompile Include="Common\src\common.ts" />
     <TypeScriptCompile Include="utilities\checkin-test.ts" />
-    <TypeScriptCompile Include="Webresources\sf365_\JS\checkin.ts">
+    <TypeScriptCompile Include="Webresources\sf365_\js\checkin.ts">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </TypeScriptCompile>
   </ItemGroup>
