@@ -3,5 +3,6 @@
         static onload() {
             alert('foo3');
         }
+
     }
 }
