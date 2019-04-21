@@ -1,0 +1,574 @@
+
+<entities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" timestamp="21.04.2019 г. 11:50:53">
+  <entity name="account" displayname="Account">
+    <records>
+      <record id="93c71621-bd9f-e711-8122-000d3a2ba2ea">
+        <field name="name" value="test_5e09f2e6-1b93-48c9-a795-d8e387ef56b5" />
+        <field name="accountid" value="93c71621-bd9f-e711-8122-000d3a2ba2ea" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="00ded422-7a57-e911-a95f-000d3ab3a35d">
+        <field name="name" value="First" />
+        <field name="accountid" value="00ded422-7a57-e911-a95f-000d3ab3a35d" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e2574e65-7d57-e911-a95f-000d3ab3a35d">
+        <field name="name" value="Second" />
+        <field name="accountid" value="e2574e65-7d57-e911-a95f-000d3ab3a35d" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="92bc02eb-7f57-e911-a95f-000d3ab3a35d">
+        <field name="name" value="Third" />
+        <field name="accountid" value="92bc02eb-7f57-e911-a95f-000d3ab3a35d" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="6e22b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Fourth Coffee (sample)" />
+        <field name="accountid" value="6e22b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7022b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Litware, Inc. (sample)" />
+        <field name="accountid" value="7022b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7222b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Adventure Works (sample)" />
+        <field name="accountid" value="7222b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7422b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Fabrikam, Inc. (sample)" />
+        <field name="accountid" value="7422b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7622b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Blue Yonder Airlines (sample)" />
+        <field name="accountid" value="7622b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7822b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="City Power &amp;amp; Light (sample)" />
+        <field name="accountid" value="7822b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7a22b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Contoso Pharmaceuticals (sample)" />
+        <field name="accountid" value="7a22b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7c22b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Alpine Ski House (sample)" />
+        <field name="accountid" value="7c22b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="7e22b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="A. Datum Corporation (sample)" />
+        <field name="accountid" value="7e22b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="8022b9b6-cb5a-e911-a96c-000d3ab3a38d">
+        <field name="name" value="Coho Winery (sample)" />
+        <field name="accountid" value="8022b9b6-cb5a-e911-a96c-000d3ab3a38d" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e911e0b2-5f5b-e911-a964-000d3ab3a4b6">
+        <field name="name" value="Contoso" />
+        <field name="accountid" value="e911e0b2-5f5b-e911-a964-000d3ab3a4b6" />
+        <field name="new_bookingallowed" value="False" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="475b158c-541c-e511-80d3-3863bb347ba8">
+        <field name="name" value="A. Datum" />
+        <field name="accountid" value="475b158c-541c-e511-80d3-3863bb347ba8" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="a8a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Adventure Works" />
+        <field name="accountid" value="a8a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="aaa19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Alpine Ski House" />
+        <field name="accountid" value="aaa19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="aca19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Blue Yonder Airlines" />
+        <field name="accountid" value="aca19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="aea19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="City Power &amp;amp; Light" />
+        <field name="accountid" value="aea19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b0a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Coho Winery" />
+        <field name="accountid" value="b0a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b2a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Consolidated Messenger" />
+        <field name="accountid" value="b2a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b4a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Fabrikam, Inc." />
+        <field name="accountid" value="b4a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b6a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Fourth Coffee" />
+        <field name="accountid" value="b6a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b8a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Graphic Design Institute" />
+        <field name="accountid" value="b8a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="baa19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Humongous Insurance" />
+        <field name="accountid" value="baa19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="bca19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Litware" />
+        <field name="accountid" value="bca19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="bea19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Lucerne Publishing" />
+        <field name="accountid" value="bea19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="c0a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Margie&amp;#39;s Travel" />
+        <field name="accountid" value="c0a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="c2a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Northwind Traders" />
+        <field name="accountid" value="c2a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="c4a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Proseware, Inc." />
+        <field name="accountid" value="c4a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="c6a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="School of Fine Art" />
+        <field name="accountid" value="c6a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="c8a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Southridge Video" />
+        <field name="accountid" value="c8a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="caa19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Tailspin Toys" />
+        <field name="accountid" value="caa19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="cca19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="The Phone Company" />
+        <field name="accountid" value="cca19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="cea19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Trey Research" />
+        <field name="accountid" value="cea19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d0a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Wide World Importers" />
+        <field name="accountid" value="d0a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d2a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Wingtip Toys" />
+        <field name="accountid" value="d2a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d4a19cdd-88df-e311-b8e5-6c3be5a8b200">
+        <field name="name" value="Woodgrove Bank" />
+        <field name="accountid" value="d4a19cdd-88df-e311-b8e5-6c3be5a8b200" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="2123455d-be62-e411-80d6-b4b52f567ec8">
+        <field name="name" value="Best o&amp;#39; Sales" />
+        <field name="accountid" value="2123455d-be62-e411-80d6-b4b52f567ec8" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d3ae1b3a-8bd2-e411-80ef-c4346bac7be8">
+        <field name="name" value="Microsoft" />
+        <field name="accountid" value="d3ae1b3a-8bd2-e411-80ef-c4346bac7be8" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="a16b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="A Datum Corporation" />
+        <field name="accountid" value="a16b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="a56b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="A Datum Fabrication" />
+        <field name="accountid" value="a56b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="ad6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="A Datum Integration" />
+        <field name="accountid" value="ad6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="af6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Adventure Works" />
+        <field name="accountid" value="af6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b16b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Adventure Works Engineering" />
+        <field name="accountid" value="b16b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b56b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Adventure Works Electronics" />
+        <field name="accountid" value="b56b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="b76b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Adventure Works Instrumentation" />
+        <field name="accountid" value="b76b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="bb6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Adventure Works Integration" />
+        <field name="accountid" value="bb6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="bd6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Blue Yonder Airlines" />
+        <field name="accountid" value="bd6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="cb6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light" />
+        <field name="accountid" value="cb6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="cd6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light Engineering" />
+        <field name="accountid" value="cd6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d16b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light Electronics" />
+        <field name="accountid" value="d16b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d36b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light Instrumentation" />
+        <field name="accountid" value="d36b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d56b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light Assembly" />
+        <field name="accountid" value="d56b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d76b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="City Power &amp;amp; Light Integration" />
+        <field name="accountid" value="d76b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="d96b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Fabrikam Robotics" />
+        <field name="accountid" value="d96b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="db6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso, Ltd" />
+        <field name="accountid" value="db6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="dd6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Engineering" />
+        <field name="accountid" value="dd6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="df6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Fabrication" />
+        <field name="accountid" value="df6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e16b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Electronics" />
+        <field name="accountid" value="e16b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e36b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Instrumentation" />
+        <field name="accountid" value="e36b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e56b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Assembly" />
+        <field name="accountid" value="e56b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="e96b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma" />
+        <field name="accountid" value="e96b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="eb6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Engineering" />
+        <field name="accountid" value="eb6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="ed6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Fabrication" />
+        <field name="accountid" value="ed6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="ef6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Electronics" />
+        <field name="accountid" value="ef6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="f16b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Instrumentation" />
+        <field name="accountid" value="f16b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="f36b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Assembly" />
+        <field name="accountid" value="f36b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="f56b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Contoso Pharma Integration" />
+        <field name="accountid" value="f56b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="f76b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware, Inc." />
+        <field name="accountid" value="f76b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="f96b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research" />
+        <field name="accountid" value="f96b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="fb6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Fabrikam West" />
+        <field name="accountid" value="fb6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="fd6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research Engineering" />
+        <field name="accountid" value="fd6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="ff6b3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research Fabrication" />
+        <field name="accountid" value="ff6b3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="016c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research Electronics" />
+        <field name="accountid" value="016c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="036c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research Instrumentation" />
+        <field name="accountid" value="036c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="056c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Trey Research Assembly" />
+        <field name="accountid" value="056c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="096c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Engineering" />
+        <field name="accountid" value="096c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="0b6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Fabrication" />
+        <field name="accountid" value="0b6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="0d6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Electronics" />
+        <field name="accountid" value="0d6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="0f6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Instrumentation" />
+        <field name="accountid" value="0f6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="116c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Assembly" />
+        <field name="accountid" value="116c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="136c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Litware Integration" />
+        <field name="accountid" value="136c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="156c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders" />
+        <field name="accountid" value="156c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="176c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Engineering" />
+        <field name="accountid" value="176c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="196c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Fabrication" />
+        <field name="accountid" value="196c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="1b6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Electronics" />
+        <field name="accountid" value="1b6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="1d6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Instrumentation" />
+        <field name="accountid" value="1d6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="1f6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Assembly" />
+        <field name="accountid" value="1f6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="216c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Northwind Traders Integration" />
+        <field name="accountid" value="216c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="236c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Southridge Video" />
+        <field name="accountid" value="236c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="276c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Southridge Video Engineering" />
+        <field name="accountid" value="276c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="2b6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Southridge Video Electronics" />
+        <field name="accountid" value="2b6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="316c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Southridge Video Integration" />
+        <field name="accountid" value="316c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="376c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Tailspin Toys Fabrication" />
+        <field name="accountid" value="376c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="396c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Tailspin Toys Electronics" />
+        <field name="accountid" value="396c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="3b6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Tailspin Toys Instrumentation" />
+        <field name="accountid" value="3b6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="3f6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Tailspin Toys Integration" />
+        <field name="accountid" value="3f6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="456c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Wingtip Toys Fabrication" />
+        <field name="accountid" value="456c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="476c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Wingtip Toys Electronics" />
+        <field name="accountid" value="476c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="496c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Wingtip Toys Instrumentation" />
+        <field name="accountid" value="496c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="4d6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Wingtip Toys Integration" />
+        <field name="accountid" value="4d6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="4f6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="The Phone Company" />
+        <field name="accountid" value="4f6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="516c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="The Phone Company Engineering" />
+        <field name="accountid" value="516c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="576c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="The Phone Company Instrumentation" />
+        <field name="accountid" value="576c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="5b6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="The Phone Company Integration" />
+        <field name="accountid" value="5b6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="656c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Consolidated Messenger Instrumentation" />
+        <field name="accountid" value="656c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="676c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Consolidated Messenger Assembly" />
+        <field name="accountid" value="676c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="696c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Consolidated Messenger Integration" />
+        <field name="accountid" value="696c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+      <record id="6d6c3f4b-1be7-e611-8101-e0071b6af231">
+        <field name="name" value="Coho Winery" />
+        <field name="accountid" value="6d6c3f4b-1be7-e611-8101-e0071b6af231" />
+        <field name="businesstypecode" value="1" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

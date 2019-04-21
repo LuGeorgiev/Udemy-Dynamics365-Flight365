@@ -1,0 +1,11 @@
+<entities >
+  <entity name="account" displayname="Account" etc="1" primaryidfield="accountid" primarynamefield="name" disableplugins="false">
+    <fields>
+      <field displayname="Account Name" name="name" type="string" />
+      <field updateCompare="true" displayname="Account" name="accountid" type="guid" primaryKey="true" />
+      <field displayname="Booking Allowed" name="new_bookingallowed" type="bool" customfield="true" />
+      <field displayname="Booking Country" name="new_bookingcountry" type="optionsetvalue" customfield="true" />
+      <field displayname="Business Type" name="businesstypecode" type="optionsetvalue" />
+    </fields>
+  </entity>
+</entities>
