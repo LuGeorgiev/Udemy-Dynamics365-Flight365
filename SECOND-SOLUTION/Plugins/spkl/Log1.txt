@@ -1,0 +1,10 @@
+23:09:21	Deploying Plugins
+23:09:21	Searching for plugin config in 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\spkl\..'
+23:09:21	Using Config 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins'
+23:09:21	Checking assembly 'SF365.Plugins.dll' for plugins
+23:09:21	2 plugin(s) found!
+23:09:23	Registering Plugin 'SF365.Plugins' from 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\bin\Debug\SF365.Plugins.dll'
+23:09:24	Registering Type 'SF365.Plugins.AccountPlugin'
+23:09:26	Registering Step 'Pre-Update account'
+23:09:27	Registering Image 'PreImage'
+23:09:28	Processed 1 config(s)
