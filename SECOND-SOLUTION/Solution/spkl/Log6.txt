@@ -91,3 +91,48 @@
 10:16:27 AM	 - QuoteDetail
 10:16:27 AM	Creating: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\RibbonDiff.xml
 10:16:27 AM	Creating: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\Entity.xml
+10:29:38 AM	
+10:29:38 AM	Extracting C:\Users\lugeorgiev\AppData\Local\Temp\tmpB00C.tmp to C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package
+10:29:38 AM	
+10:29:38 AM	Processing Component: Entities
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{74da4947-5d1d-4400-9f99-c6ed578211bb}.xml
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{cb430327-bcc1-416d-959d-db7592e685af}.xml
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml
+10:29:38 AM	Writing: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}.xml
+10:29:39 AM	 - QuoteDetail
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\RibbonDiff.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\Entity.xml
+10:29:39 AM	 - SalesOrder
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\SalesOrder\RibbonDiff.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\SalesOrder\Entity.xml
+10:29:39 AM	Processing Component: Roles
+10:29:39 AM	Processing Component: Workflows
+10:29:39 AM	 - Account number mandatory
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml.data.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml
+10:29:39 AM	Processing Component: FieldSecurityProfiles
+10:29:39 AM	Processing Component: Templates
+10:29:39 AM	Processing Component: EntityMaps
+10:29:39 AM	Processing Component: EntityRelationships
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\Account.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\BookableResource.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\msdyn_taxcode.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\Territory.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships.xml
+10:29:39 AM	Processing Component: optionsets
+10:29:39 AM	Processing Component: InteractionCentricDashboards
+10:29:39 AM	 - {15915835-b87c-49ec-9ffc-bfac3ac44ef1}
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\InteractionCentricDashboards\{15915835-b87c-49ec-9ffc-bfac3ac44ef1}.xml
+10:29:39 AM	Processing Component: WebResources
+10:29:39 AM	 - sf365_/js/checkin.js
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\WebResources\sf365_\js\checkin.js.data.xml
+10:29:39 AM	Skipping 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\WebResources\sf365_\js\checkin.js' as it matches a mapping directive
+10:29:39 AM	Processing Component: EntityDataProviders
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Customizations.xml
+10:29:39 AM	Writing: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Solution.xml
+10:29:39 AM	
+10:29:39 AM	Unmanaged Extract complete.
+10:29:39 AM	
+10:29:39 AM	1 warnings encountered
+10:29:39 AM	Read-only files will be over-written or deleted.

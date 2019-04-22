@@ -37,3 +37,13 @@
 10:16:27 AM	
 10:16:27 AM	Unmanaged Extract complete.
 10:16:27 AM	
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_journalline\Entity.xml
+10:29:38 AM	 - msdyn_opportunitylinetransaction
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_opportunitylinetransaction\RibbonDiff.xml
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_opportunitylinetransaction\Entity.xml
+10:29:38 AM	 - msdyn_orderlinetransaction
+10:29:38 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_orderlinetransaction\RibbonDiff.xml
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_orderlinetransaction\Entity.xml
+10:29:39 AM	 - msdyn_payment
+10:29:39 AM	No change: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_payment\RibbonDiff.xml
+10:29:39 AM	CrmSvcUtil Runtime = 00:00:01.3705047

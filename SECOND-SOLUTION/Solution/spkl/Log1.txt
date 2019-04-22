@@ -5,3 +5,10 @@
 10:16:25 AM	Map xml created at 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
 10:16:25 AM	Running C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Extract /zipfile:"C:\Users\lugeorgiev\AppData\Local\Temp\tmp9EBD.tmp" /folder:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package" /packagetype:unmanaged /allowWrite:Yes /allowDelete:Yes /clobber /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
 10:16:27 AM	Processed 1 config(s)
+10:29:06 AM	Unpacking solution
+10:29:06 AM	Searching for packager config in 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\spkl\..'
+10:29:07 AM	Using Config 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution'
+10:29:36 AM	Target C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools
+10:29:36 AM	Map xml created at 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
+10:29:36 AM	Running C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Extract /zipfile:"C:\Users\lugeorgiev\AppData\Local\Temp\tmpB00C.tmp" /folder:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package" /packagetype:unmanaged /allowWrite:Yes /allowDelete:Yes /clobber /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
+10:29:39 AM	Processed 1 config(s)
