@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1135e23f-0b59-e911-a95f-000d3ab3a35d}" Name="Account number mandatory" Description="Click to add description">
+  <XamlFileName>/Workflows/Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Account number mandatory" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="Click to add description" />
+  </Descriptions>
+  <labels>
+    <steplabels id="{bf0fb289-6ba3-4205-b10e-f2cf5cf91729}">
+      <label languagecode="1033" description="Make sure you have entered account number" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{8d4a1249-0b59-e911-a95f-000d3ab3a35d}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>industrycode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8e4a1249-0b59-e911-a95f-000d3ab3a35d}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{8f4a1249-0b59-e911-a95f-000d3ab3a35d}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>industrycode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{904a1249-0b59-e911-a95f-000d3ab3a35d}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Account</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>
