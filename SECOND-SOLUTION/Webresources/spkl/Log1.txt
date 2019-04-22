@@ -1,0 +1,9 @@
+9:32:41 AM	Deploying WebResources
+9:32:41 AM	Using Config 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources'
+9:32:43 AM	Creating Webresource 'sf365_\js\checkin.js' -> 'sf365_/js/checkin.js'
+9:32:44 AM	Adding to solution 'SpaceFlight365_Patch_4d54cea1'
+9:32:45 AM	Deployed 1 webresource(s)
+9:32:45 AM	Publishing 1 webresources...
+9:32:51 AM	Publish complete.
+9:32:51 AM	Processed 1 section(s)
+9:32:51 AM	Processed 1 config(s)

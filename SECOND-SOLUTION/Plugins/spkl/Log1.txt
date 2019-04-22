@@ -8,3 +8,13 @@
 23:09:26	Registering Step 'Pre-Update account'
 23:09:27	Registering Image 'PreImage'
 23:09:28	Processed 1 config(s)
+8:38:30 AM	Deploying Plugins
+8:38:30 AM	Searching for plugin config in 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\spkl\..'
+8:38:30 AM	Using Config 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins'
+8:38:30 AM	Checking assembly 'SF365.Plugins.dll' for plugins
+8:38:30 AM	2 plugin(s) found!
+8:38:34 AM	Updating Plugin 'SF365.Plugins' from 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\bin\Debug\SF365.Plugins.dll'
+8:38:36 AM	Updating Type 'SF365.Plugins.AccountPlugin'
+8:38:42 AM	Updating Step 'Pre-Update account'
+8:38:43 AM	Updating Image 'PreImage'
+8:38:43 AM	Processed 1 config(s)
