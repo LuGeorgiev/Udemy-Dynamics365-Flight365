@@ -3,7 +3,7 @@ using System;
 using System.Globalization;
 using System.ServiceModel;
 
-namespace SF365.Plugins
+namespace SF365Plugins
 {
     public abstract class PluginBase : IPlugin
     {

@@ -12,3 +12,12 @@
 10:29:36 AM	Map xml created at 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
 10:29:36 AM	Running C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Extract /zipfile:"C:\Users\lugeorgiev\AppData\Local\Temp\tmpB00C.tmp" /folder:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package" /packagetype:unmanaged /allowWrite:Yes /allowDelete:Yes /clobber /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
 10:29:39 AM	Processed 1 config(s)
+11:17:05 AM	Packing & Import Solution
+11:17:05 AM	Searching for packager config in 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\spkl\..'
+11:17:06 AM	Using Config 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution'
+11:17:06 AM	Target C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools
+11:17:06 AM	Map xml created at 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
+11:17:06 AM	Running C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Pack /zipfile:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\solution_1_0_2_0.zip" /folder:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package" /packagetype:unmanaged /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
+11:17:09 AM	Solution Packed to 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\solution_1_0_2_0.zip'
+11:17:09 AM	Importing solution 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\solution_1_0_2_0.zip'...
+11:17:12 AM	.11:17:14 AM	.11:17:16 AM	.11:17:18 AM	.11:17:21 AM	.11:17:23 AM	.11:17:25 AM	.11:17:27 AM	.11:17:29 AM	.11:17:31 AM	.11:17:34 AM	.11:17:36 AM	.11:17:38 AM	.11:17:40 AM	.11:17:42 AM	.11:17:44 AM	.11:17:46 AM	.11:17:49 AM	.11:17:51 AM	.

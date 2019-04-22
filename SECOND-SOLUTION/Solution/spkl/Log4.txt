@@ -1,0 +1,37 @@
+11:17:07 AM	Reading mapping directives...
+11:17:07 AM	<FileToPath map="PluginAssemblies\**\*.*" to="..\..\Plugins\bin\**" />
+11:17:07 AM	Map folder 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\PluginAssemblies\' does not exist.
+11:17:07 AM	<FileToPath map="WebResources\*.*" to="..\..\Webresources\Webresources\**" />
+11:17:07 AM	<FileToPath map="WebResources\**\*.*" to="..\..\Webresources\Webresources\**" />
+11:17:08 AM	
+11:17:08 AM	Packing C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package to C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\solution_1_0_2_0.zip
+11:17:08 AM	
+11:17:08 AM	Processing Component: Entities
+11:17:08 AM	 - Account
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\Entity.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\card\{cccff382-2b92-467e-bf1b-3db179512af8}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{74da4947-5d1d-4400-9f99-c6ed578211bb}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{9edd860a-d35f-4368-bf6b-9ea8880c1aff}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{a72c7955-442b-4ea4-9499-b10cd18b4256}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{b053a39a-041a-4356-acef-ddf00182762b}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\main\{cb430327-bcc1-416d-959d-db7592e685af}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{098ae145-1567-41ec-8398-86dbaac70c9b}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{2205c86d-ed88-4a2f-a447-3b86a8781f2e}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{43300723-f867-420b-ab28-976a4d12e6c4}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{69cff312-cfb6-4289-9631-249ab85d2c62}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{894155a3-95d5-4881-b9c3-04444cef1bcc}.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}.xml
+11:17:08 AM	 - msdyn_fact
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_fact\Entity.xml
+11:17:08 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_fact\RibbonDiff.xml
+11:17:08 AM	 - msdyn_geofence
+11:17:09 AM	 - msdyn_workorder
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_workorder\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_workorder\RibbonDiff.xml
+11:17:09 AM	 - msdyn_workorderresourcerestriction
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_workorderresourcerestriction\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_workorderresourcerestriction\RibbonDiff.xml
+11:17:09 AM	 - OpportunityProduct
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\OpportunityProduct\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\OpportunityProduct\RibbonDiff.xml

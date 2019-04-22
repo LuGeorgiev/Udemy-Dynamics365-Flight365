@@ -1,0 +1,65 @@
+11:17:09 AM	 - msdyn_requirementresourcepreference
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_requirementresourcepreference\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_requirementresourcepreference\RibbonDiff.xml
+11:17:09 AM	 - msdyn_rma
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rma\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rma\RibbonDiff.xml
+11:17:09 AM	 - msdyn_rmaproduct
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rmaproduct\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rmaproduct\RibbonDiff.xml
+11:17:09 AM	 - msdyn_rtv
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rtv\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\msdyn_rtv\RibbonDiff.xml
+11:17:09 AM	 - Product
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Product\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Product\RibbonDiff.xml
+11:17:09 AM	 - Quote
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Quote\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\Quote\RibbonDiff.xml
+11:17:09 AM	 - QuoteDetail
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\QuoteDetail\RibbonDiff.xml
+11:17:09 AM	 - SalesOrder
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\SalesOrder\Entity.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Entities\SalesOrder\RibbonDiff.xml
+11:17:09 AM	Processing Component: Roles
+11:17:09 AM	Processing Component: Workflows
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml.data.xml
+11:17:09 AM	 - Account number mandatory
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml
+11:17:09 AM	Processing Component: FieldSecurityProfiles
+11:17:09 AM	Processing Component: Templates
+11:17:09 AM	Processing Component: EntityMaps
+11:17:09 AM	Processing Component: EntityRelationships
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\Account.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\BookableResource.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\msdyn_taxcode.xml
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\Other\Relationships\Territory.xml
+11:17:09 AM	Processing Component: optionsets
+11:17:09 AM	Processing Component: InteractionCentricDashboards
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\InteractionCentricDashboards\{15915835-b87c-49ec-9ffc-bfac3ac44ef1}.xml
+11:17:09 AM	Processing Component: WebResources
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\WebResources\sf365_\js\checkin.js.data.xml
+11:17:09 AM	 - sf365_/js/checkin.js
+11:17:09 AM	Mapping: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\WebResources\sf365_\js\checkin.js to C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources\sf365_\js\checkin.js
+11:17:09 AM	Reading: C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources\sf365_\js\checkin.js
+11:17:09 AM	Processing Component: EntityDataProviders
+11:17:09 AM	Following root components are not defined in customizations:
+11:17:09 AM	  Type='Dashboard', Id (or schema name)='{8448b78f-8f42-454e-8e2a-f8196b0419af}'.
+11:17:09 AM	
+11:17:09 AM	Following root components are not defined in customizations:
+11:17:09 AM	  Type='Dashboard', Id (or schema name)='{8448b78f-8f42-454e-8e2a-f8196b0419af}'.
+11:17:09 AM	
+11:17:09 AM	
+11:17:09 AM	Unmanaged Pack complete.
+11:17:09 AM	
+11:17:09 AM	3 warnings encountered
+11:17:09 AM	Map folder 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\PluginAssemblies\' does not exist.
+11:17:09 AM	Following root components are not defined in customizations:
+11:17:09 AM	  Type='Dashboard', Id (or schema name)='{8448b78f-8f42-454e-8e2a-f8196b0419af}'.
+11:17:09 AM	
+11:17:09 AM	Following root components are not defined in customizations:
+11:17:09 AM	  Type='Dashboard', Id (or schema name)='{8448b78f-8f42-454e-8e2a-f8196b0419af}'.
+11:17:09 AM	
+11:17:09 AM	CrmSvcUtil Runtime = 00:00:02.3022963
