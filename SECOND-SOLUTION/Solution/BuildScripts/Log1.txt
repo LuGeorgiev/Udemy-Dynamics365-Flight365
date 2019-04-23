@@ -1,0 +1,8 @@
+22:05:14	Packing Solution
+22:05:14	Searching for packager config in 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\spkl.json'
+22:05:14	Using Config 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..'
+22:05:14	Target C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools
+22:05:14	Map xml created at 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\packager_map.xml'
+22:05:14	Running C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\SolutionPackager.exe /action:Pack /zipfile:"C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\SpaceFlight365_1_1_123_1.zip" /folder:"C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package" /packagetype:unmanaged /errorlevel:Verbose /nologo /log:packagerlog.txt /map:packager_map.xml
+22:05:16	Solution Packed to 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\SpaceFlight365_1_1_123_1.zip'
+22:05:16	Processed 1 config(s)

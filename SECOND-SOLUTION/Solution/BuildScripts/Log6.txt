@@ -1,0 +1,33 @@
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\SavedQueries\{a9af0ab8-861d-4cfa-92a5-c6281fed7fab}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_geofence\RibbonDiff.xml
+22:05:15	 - msdyn_invoicelinetransaction
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_invoicelinetransaction\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_invoicelinetransaction\RibbonDiff.xml
+22:05:15	 - msdyn_iotdevice
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_iotdevice\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_iotdevice\RibbonDiff.xml
+22:05:15	 - msdyn_journalline
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_journalline\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_journalline\RibbonDiff.xml
+22:05:15	 - msdyn_opportunitylinetransaction
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_project\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_project\RibbonDiff.xml
+22:05:15	 - msdyn_purchaseorder
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_purchaseorder\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_purchaseorder\RibbonDiff.xml
+22:05:15	 - msdyn_quotelinetransaction
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_quotelinetransaction\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_quotelinetransaction\RibbonDiff.xml
+22:05:15	 - msdyn_requirementresourcepreference
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\SalesOrder\RibbonDiff.xml
+22:05:16	Processing Component: Roles
+22:05:16	Processing Component: Workflows
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml.data.xml
+22:05:16	 - Account number mandatory
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Workflows\Accountnumbermandatory-1135E23F-0B59-E911-A95F-000D3AB3A35D.xaml
+22:05:16	Processing Component: FieldSecurityProfiles
+22:05:16	Processing Component: Templates
+22:05:16	Processing Component: EntityMaps
+22:05:16	Processing Component: EntityRelationships
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Other\Relationships.xml
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Other\Relationships\Account.xml

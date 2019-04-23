@@ -1,0 +1,51 @@
+22:05:14	Reading mapping directives...
+22:05:14	<FileToPath map="PluginAssemblies\**\*.*" to="..\..\Plugins\bin\**" />
+22:05:14	Map folder 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package\PluginAssemblies\' does not exist.
+22:05:14	<FileToPath map="WebResources\*.*" to="..\..\Webresources\Webresources\**" />
+22:05:14	<FileToPath map="WebResources\**\*.*" to="..\..\Webresources\Webresources\**" />
+22:05:15	
+22:05:15	Packing C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\package to C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\SpaceFlight365_1_1_123_1.zip
+22:05:15	
+22:05:15	Processing Component: Entities
+22:05:15	 - Account
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\FormXml\card\{cccff382-2b92-467e-bf1b-3db179512af8}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\FormXml\main\{74da4947-5d1d-4400-9f99-c6ed578211bb}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\FormXml\main\{8448b78f-8f42-454e-8e2a-f8196b0419af}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\FormXml\quick\{b028db32-3619-48a5-ac51-cf3f947b0ef3}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\FormXml\quickCreate\{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\SavedQueries\{00000000-0000-0000-00aa-000010001001}.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Account\RibbonDiff.xml
+22:05:15	 - msdyn_accountpricelist
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_accountpricelist\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_accountpricelist\RibbonDiff.xml
+22:05:15	 - msdyn_actual
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_actual\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_actual\RibbonDiff.xml
+22:05:15	 - msdyn_agreement
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_agreement\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_agreement\RibbonDiff.xml
+22:05:15	 - msdyn_customerasset
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_customerasset\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_customerasset\RibbonDiff.xml
+22:05:15	 - msdyn_entitlementapplication
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_entitlementapplication\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_entitlementapplication\RibbonDiff.xml
+22:05:15	 - msdyn_estimateline
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_estimateline\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_estimateline\RibbonDiff.xml
+22:05:15	 - msdyn_fact
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_fact\Entity.xml
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_fact\RibbonDiff.xml
+22:05:15	 - msdyn_geofence
+22:05:15	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\msdyn_geofence\Entity.xml
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Product\Entity.xml
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Product\RibbonDiff.xml
+22:05:16	 - Quote
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Quote\Entity.xml
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\Quote\RibbonDiff.xml
+22:05:16	 - QuoteDetail
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\QuoteDetail\Entity.xml
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\QuoteDetail\RibbonDiff.xml
+22:05:16	 - SalesOrder
+22:05:16	Reading: C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\BuildScripts\..\package\Entities\SalesOrder\Entity.xml

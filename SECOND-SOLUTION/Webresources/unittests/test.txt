@@ -384,3 +384,9 @@ testhost.x86.exe Information: 0 : Time:19:58:58.5579743; Thread:13; Message:End 
 Informational: ========== Run test finished: 1 run (0:00:19,2697766) ==========
 Informational: ------ Run test started ------
 Informational: ========== Run test finished: 0 run (0:00:05,805679) ==========
+devenv.exe Information: 0 : Time:21:59:56.2465518; Thread:1; Message:Begin OnProjectItemChanged
+devenv.exe Information: 0 : Time:22:00:13.6018988; Thread:1; Message:Begin OnProjectItemChanged
+devenv.exe Information: 0 : Time:22:00:13.6058988; Thread:1; Message:Begin OnProjectItemChanged
+Informational: ------ Discover test started ------
+Warning: No test is available in C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\Plugins.csproj C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Solution\Solution.csproj C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources.csproj. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+Informational: ========== Discover test finished: 0 found (0:00:04,4865295) ==========
