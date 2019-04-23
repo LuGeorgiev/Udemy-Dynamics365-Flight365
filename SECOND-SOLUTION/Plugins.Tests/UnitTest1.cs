@@ -14,12 +14,20 @@ namespace Plugins.Tests
         public void TestMethod1()
         {
             using (var pipeline = new PluginPipeline(
-                FakeMessageNames.Create, 
-                FakeStages.PreOperation, 
+                FakeMessageNames.Create,
+                FakeStages.PreOperation,
                 new Entity("contact")))
             {
                 var plugin = new AccountPlugin();
-                pipeline.Execute(plugin);
+                try
+                {
+                    pipeline.Execute(plugin);
+                    Assert.Fail("Exception not thrown");
+                }
+                catch (InvalidPluginExecutionException ex)
+                {
+                    Assert.IsTrue(ex.Message.Contains("Under"), "Must throw exception");                    
+                }
             }
         }
     }
