@@ -100,3 +100,287 @@ devenv.exe Information: 0 : Time:15:03:44.4390196; Thread:84; Message:Test conta
 Informational: ------ Run test started ------
 Informational: ========== Run test finished: 1 run (0:00:03.006) ==========
 devenv.exe Information: 0 : Time:15:10:10.4708196; Thread:1; Message:Begin OnProjectItemChanged
+testhost.x86.exe Information: 0 : Time:19:53:45.3469209; Thread:3; Message:Chutzpah run started in mode Discovery with parallelism set to 4
+testhost.x86.exe Information: 0 : Time:19:53:45.3738094; Thread:3; Message:Trying to build test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:53:45.3987810; Thread:3; Message:Building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:53:45.4317591; Thread:3; Message:Test file c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts matched folder c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests with includes **.ts and excludes **.d.ts patterns from settings file
+testhost.x86.exe Information: 0 : Time:19:53:45.4697401; Thread:3; Message:Investigating reference file path '../node_modules/knockout/build/output/knockout-latest.debug.js'
+testhost.x86.exe Information: 0 : Time:19:53:45.4917254; Thread:3; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:53:45.5107173; Thread:3; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:53:45.5297047; Thread:3; Message:Investigating reference file path '../node_modules/requirejs/require.js'
+testhost.x86.exe Warning: 0 : Time:19:53:45.5586899; Thread:3; Message:Referenced file '../node_modules/requirejs/require.js' which was resolved to 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\../node_modules/requirejs/require.js' does not exist
+testhost.x86.exe Information: 0 : Time:19:53:45.5756804; Thread:3; Message:Investigating reference file path '../Webresources/sf365_/js/checkin.js'
+testhost.x86.exe Information: 0 : Time:19:53:45.5926672; Thread:3; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:53:45.6156551; Thread:3; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:53:45.6646252; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:53:45.6806337; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.css' to referenced files
+testhost.x86.exe Information: 0 : Time:19:53:45.6976239; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\chutzpah_boot.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:53:45.7225922; Thread:3; Message:Finished building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:53:45.7519751; Thread:3; Message:Skipping batch compile since all files are update to date for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\chutzpah.json
+testhost.x86.exe Information: 0 : Time:19:53:45.7768330; Thread:3; Message:Start test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Discovery mode
+testhost.x86.exe Information: 0 : Time:19:53:46.0667009; Thread:3; Message:Using builtin Test Harness from C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\qunit\v1\qunit.html
+testhost.x86.exe Information: 0 : Time:19:53:46.1571951; Thread:3; Message:Invoking headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:53:55.4006165; Thread:3; Message:Started headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 4080 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" discovery 10000 False 
+testhost.x86.exe Information: 0 : Time:19:53:57.8901919; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:53:57.9131801; Thread:7; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:53:57.9301690; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:57.9471587; Thread:7; Message:Phantom Log - Url Change file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:53:57.9631496; Thread:7; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:53:57.9791404; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:53:57.9961326; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.0161193; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:53:58.0381078; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.0630934; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:53:58.0910768; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.1130657; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:53:58.1350530; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.1600378; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:53:58.1800257; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.2030127; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:53:58.2289979; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.2519850; Thread:7; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:53:58.2789703; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.3089518; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:53:58.3259440; Thread:7; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.3439325; Thread:7; Message:Phantom Log - onQUnitLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.3619232; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:53:58.3789117; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:53:58.3969015; Thread:7; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:53:58.4128952; Thread:7; Message:Phantom Log - onPageLoaded
+testhost.x86.exe Information: 0 : Time:19:53:58.4308817; Thread:7; Message:Phantom Log - Starting QUnit from Phantom onPageLoaded...
+testhost.x86.exe Information: 0 : Time:19:53:58.4468726; Thread:7; Message:Phantom Log - Starting QUnit ...
+testhost.x86.exe Information: 0 : Time:19:53:58.4788567; Thread:7; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:53:58.4958460; Thread:7; Message:Phantom Log - Url Change about:blank
+testhost.x86.exe Information: 0 : Time:19:53:58.5138523; Thread:7; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:53:58.6007846; Thread:3; Message:Finished reading stream from test file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:53:58.6187744; Thread:3; Message:Ended headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 4080 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" discovery 10000 False 
+testhost.x86.exe Information: 0 : Time:19:53:58.6407629; Thread:3; Message:Test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts' finished with 0 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:53:58.6567538; Thread:3; Message:Finished running headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:53:58.6737439; Thread:3; Message:Finished test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Discovery mode
+testhost.x86.exe Information: 0 : Time:19:53:58.6927322; Thread:3; Message:Cleaning up test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:53:58.7157196; Thread:3; Message:Chutzpah run finished with 0 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:53:58.7377073; Thread:3; Message:Chutzpah.json file cache cleared
+testhost.x86.exe Information: 0 : Time:19:53:58.7586941; Thread:3; Message:End Test Adapter Discover Tests
+testhost.x86.exe Information: 0 : Time:19:57:36.1952924; Thread:3; Message:Chutzpah run started in mode Discovery with parallelism set to 4
+testhost.x86.exe Information: 0 : Time:19:57:36.2162804; Thread:3; Message:Trying to build test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:57:36.2442675; Thread:3; Message:Building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:57:36.2812468; Thread:3; Message:Test file c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts matched folder c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests with includes **.ts and excludes **.d.ts patterns from settings file
+testhost.x86.exe Information: 0 : Time:19:57:36.3112270; Thread:3; Message:Investigating reference file path '../node_modules/knockout/build/output/knockout-latest.debug.js'
+testhost.x86.exe Information: 0 : Time:19:57:36.3322176; Thread:3; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:57:36.3492085; Thread:3; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:57:36.3671983; Thread:3; Message:Investigating reference file path '../node_modules/requirejs/require.js'
+testhost.x86.exe Information: 0 : Time:19:57:36.3861841; Thread:3; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\requirejs\require.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:57:36.4041735; Thread:3; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\requirejs\require.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:57:36.4291582; Thread:3; Message:Investigating reference file path '../Webresources/sf365_/js/checkin.js'
+testhost.x86.exe Information: 0 : Time:19:57:36.4501479; Thread:3; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:57:36.4701359; Thread:3; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:57:36.5041157; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:57:36.5281032; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.css' to referenced files
+testhost.x86.exe Information: 0 : Time:19:57:36.5471087; Thread:3; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\chutzpah_boot.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:57:36.5650846; Thread:3; Message:Finished building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:57:36.5940820; Thread:3; Message:Skipping batch compile since all files are update to date for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\chutzpah.json
+testhost.x86.exe Information: 0 : Time:19:57:36.6160693; Thread:3; Message:Start test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Discovery mode
+testhost.x86.exe Information: 0 : Time:19:57:36.6895862; Thread:3; Message:Using builtin Test Harness from C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\qunit\v1\qunit.html
+testhost.x86.exe Information: 0 : Time:19:57:36.7485528; Thread:3; Message:Invoking headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:57:36.7765386; Thread:3; Message:Started headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 13544 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" discovery 10000 False 
+testhost.x86.exe Information: 0 : Time:19:57:39.0552491; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:57:39.0758458; Thread:9; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:57:39.0988312; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.1288168; Thread:9; Message:Phantom Log - Url Change file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:57:39.1647948; Thread:9; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:57:39.2027721; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:57:39.2277581; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.2497450; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:57:39.2687337; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.2897238; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:57:39.3077132; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.3277003; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:57:39.3546848; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.3736755; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:57:39.3896816; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.4086542; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:57:39.4236626; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.4396358; Thread:9; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:57:39.4556300; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.4716188; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:57:39.4886085; Thread:9; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.5735599; Thread:9; Message:Phantom Log - onQUnitLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.6405215; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:57:39.6715040; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/requirejs/require.js
+testhost.x86.exe Information: 0 : Time:19:57:39.6931296; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/requirejs/require.js
+testhost.x86.exe Information: 0 : Time:19:57:39.7091196; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:57:39.7241124; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:57:39.7411009; Thread:9; Message:Phantom Log - Test file is using module loader.
+testhost.x86.exe Information: 0 : Time:19:57:39.7620902; Thread:9; Message:Phantom Log - onPageLoaded
+testhost.x86.exe Information: 0 : Time:19:57:39.7890751; Thread:9; Message:Phantom Log - Test file is using module loader.
+testhost.x86.exe Information: 0 : Time:19:57:39.8057643; Thread:9; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/checkin-tests.js
+testhost.x86.exe Information: 0 : Time:19:57:39.8217543; Thread:11; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/checkin-tests.js
+testhost.x86.exe Information: 0 : Time:19:57:39.8377439; Thread:11; Message:Phantom Log - Starting QUnit from inline AMD call...
+testhost.x86.exe Information: 0 : Time:19:57:39.9030182; Thread:11; Message:Test Case Started:'Client Unit Tests:Check Test'
+testhost.x86.exe Information: 0 : Time:19:57:39.9679805; Thread:11; Message:Test Case Finished:'Client Unit Tests:Check Test'
+testhost.x86.exe Information: 0 : Time:19:57:39.9879701; Thread:11; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:57:40.0044372; Thread:11; Message:Phantom Log - Url Change about:blank
+testhost.x86.exe Information: 0 : Time:19:57:40.0204313; Thread:11; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:57:40.0848586; Thread:3; Message:Finished reading stream from test file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:57:40.1248058; Thread:3; Message:Ended headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 13544 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" discovery 10000 False 
+testhost.x86.exe Information: 0 : Time:19:57:40.1687845; Thread:3; Message:Test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts' finished with 1 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:57:40.1929945; Thread:3; Message:Finished running headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:57:40.2160016; Thread:3; Message:Finished test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Discovery mode
+testhost.x86.exe Information: 0 : Time:19:57:40.2397551; Thread:3; Message:Cleaning up test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:57:40.2717368; Thread:3; Message:Chutzpah run finished with 1 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:57:40.3007203; Thread:3; Message:Chutzpah.json file cache cleared
+testhost.x86.exe Information: 0 : Time:19:57:40.3262761; Thread:3; Message:End Test Adapter Discover Tests
+devenv.exe Information: 0 : Time:19:57:52.8305524; Thread:23; Message:Chutzpah run started in mode Execution with parallelism set to 4
+devenv.exe Information: 0 : Time:19:57:52.8305524; Thread:23; Message:Trying to build test context for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts
+devenv.exe Information: 0 : Time:19:57:52.8930472; Thread:23; Message:Building test context for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts
+devenv.exe Information: 0 : Time:19:57:52.9086719; Thread:23; Message:Test file c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts matched folder c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests with includes **.ts and excludes **.d.ts patterns from settings file
+devenv.exe Information: 0 : Time:19:57:52.9242965; Thread:23; Message:Investigating reference file path '../node_modules/knockout/build/output/knockout-latest.debug.js'
+devenv.exe Information: 0 : Time:19:57:52.9399199; Thread:23; Message:Added file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\node_modules\knockout\build\output\knockout-latest.debug.js' to referenced files. Local: True, IncludeInTestHarness: True
+devenv.exe Information: 0 : Time:19:57:52.9399199; Thread:23; Message:Processing referenced file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\node_modules\knockout\build\output\knockout-latest.debug.js' for expanded references
+devenv.exe Information: 0 : Time:19:57:52.9399199; Thread:23; Message:Investigating reference file path '../node_modules/requirejs/require.js'
+devenv.exe Information: 0 : Time:19:57:52.9555433; Thread:23; Message:Added file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\node_modules\requirejs\require.js' to referenced files. Local: True, IncludeInTestHarness: True
+devenv.exe Information: 0 : Time:19:57:52.9555433; Thread:23; Message:Processing referenced file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\node_modules\requirejs\require.js' for expanded references
+devenv.exe Information: 0 : Time:19:57:52.9555433; Thread:23; Message:Investigating reference file path '../Webresources/sf365_/js/checkin.js'
+devenv.exe Information: 0 : Time:19:57:52.9718109; Thread:23; Message:Added file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources\sf365_\js\checkin.js' to referenced files. Local: True, IncludeInTestHarness: True
+devenv.exe Information: 0 : Time:19:57:52.9758096; Thread:23; Message:Processing referenced file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources\sf365_\js\checkin.js' for expanded references
+devenv.exe Information: 0 : Time:19:57:52.9878063; Thread:23; Message:Added framework dependency 'c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahTestHarnessFiles\QUnit\v1\qunit.js' to referenced files
+devenv.exe Information: 0 : Time:19:57:52.9918046; Thread:23; Message:Added framework dependency 'c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahTestHarnessFiles\QUnit\v1\qunit.css' to referenced files
+devenv.exe Information: 0 : Time:19:57:52.9958037; Thread:23; Message:Added framework dependency 'c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahTestHarnessFiles\chutzpah_boot.js' to referenced files
+devenv.exe Information: 0 : Time:19:57:53.0038012; Thread:23; Message:Finished building test context for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts
+devenv.exe Information: 0 : Time:19:57:53.0513722; Thread:23; Message:Skipping batch compile since all files are update to date for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\chutzpah.json
+devenv.exe Information: 0 : Time:19:57:53.0669965; Thread:23; Message:Start test run for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts in Execution mode
+devenv.exe Information: 0 : Time:19:57:53.0826219; Thread:23; Message:Using builtin Test Harness from c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahTestHarnessFiles\qunit\v1\qunit.html
+devenv.exe Information: 0 : Time:19:57:53.1294909; Thread:23; Message:Invoking headless browser on test harness 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html' for file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts'
+devenv.exe Information: 0 : Time:19:58:04.0831224; Thread:23; Message:Started headless browser: c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\phantomjs.exe with PID: 13208 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html" execution 10000 False 
+devenv.exe Information: 0 : Time:19:58:06.3680789; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html
+devenv.exe Information: 0 : Time:19:58:06.3680789; Thread:24; Message:Phantom Log - onInitialized
+devenv.exe Information: 0 : Time:19:58:06.3836995; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.3836995; Thread:24; Message:Phantom Log - Url Change file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html
+devenv.exe Information: 0 : Time:19:58:06.3911554; Thread:24; Message:Phantom Log - onInitialized
+devenv.exe Information: 0 : Time:19:58:06.3944275; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html
+devenv.exe Information: 0 : Time:19:58:06.3974249; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4010964; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/chutzpah_boot.js
+devenv.exe Information: 0 : Time:19:58:06.4033220; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4033220; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/chutzpah_boot.js
+devenv.exe Information: 0 : Time:19:58:06.4033220; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4033220; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+devenv.exe Information: 0 : Time:19:58:06.4189458; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4189458; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+devenv.exe Information: 0 : Time:19:58:06.4189458; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4189458; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+devenv.exe Information: 0 : Time:19:58:06.4345705; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4345705; Thread:24; Message:Phantom Log - Resource Recieved: file:///c:/users/lubo/appdata/local/microsoft/visualstudio/15.0_bc45e230/extensions/wml5xuei.gnf/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+devenv.exe Information: 0 : Time:19:58:06.4345705; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4345705; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+devenv.exe Information: 0 : Time:19:58:06.4345705; Thread:24; Message:Phantom Log - isQunitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4501951; Thread:24; Message:Phantom Log - onQUnitLoaded
+devenv.exe Information: 0 : Time:19:58:06.4501951; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+devenv.exe Information: 0 : Time:19:58:06.4501951; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/node_modules/requirejs/require.js
+devenv.exe Information: 0 : Time:19:58:06.4501951; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/node_modules/requirejs/require.js
+devenv.exe Information: 0 : Time:19:58:06.4658181; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/Webresources/sf365_/js/checkin.js
+devenv.exe Information: 0 : Time:19:58:06.4658181; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/Webresources/sf365_/js/checkin.js
+devenv.exe Information: 0 : Time:19:58:06.4658181; Thread:24; Message:Phantom Log - Test file is using module loader.
+devenv.exe Information: 0 : Time:19:58:06.4658181; Thread:24; Message:Phantom Log - onPageLoaded
+devenv.exe Information: 0 : Time:19:58:06.4817667; Thread:24; Message:Phantom Log - Test file is using module loader.
+devenv.exe Information: 0 : Time:19:58:06.4857654; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/checkin-tests.js
+devenv.exe Information: 0 : Time:19:58:06.4897638; Thread:24; Message:Phantom Log - Resource Recieved: file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/checkin-tests.js
+devenv.exe Information: 0 : Time:19:58:06.4937633; Thread:24; Message:Phantom Log - Starting QUnit from inline AMD call...
+devenv.exe Information: 0 : Time:19:58:06.5996856; Thread:24; Message:Test Case Started:'Client Unit Tests:Check Test'
+devenv.exe Information: 0 : Time:19:58:06.5996856; Thread:24; Message:Phantom Log - Alert raised with message bang
+devenv.exe Information: 0 : Time:19:58:06.5996856; Thread:24; Message:File C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts, Test Check Test passed
+devenv.exe Information: 0 : Time:19:58:06.6153073; Thread:24; Message:Test Case Finished:'Client Unit Tests:Check Test'
+devenv.exe Information: 0 : Time:19:58:06.6309299; Thread:24; Message:Phantom Log - onInitialized
+devenv.exe Information: 0 : Time:19:58:06.6309299; Thread:24; Message:Phantom Log - Url Change about:blank
+devenv.exe Information: 0 : Time:19:58:06.6465562; Thread:24; Message:Phantom Log - onInitialized
+devenv.exe Information: 0 : Time:19:58:06.7090506; Thread:23; Message:Finished reading stream from test file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts'
+devenv.exe Information: 0 : Time:19:58:06.7090506; Thread:23; Message:Ended headless browser: c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\phantomjs.exe with PID: 13208 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "c:\users\lubo\appdata\local\microsoft\visualstudio\15.0_bc45e230\extensions\wml5xuei.gnf\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///C:/Development/Udemy-Dynamics365-Flight365/SECOND-SOLUTION/Webresources/unittests/_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html" execution 10000 False 
+devenv.exe Information: 0 : Time:19:58:06.7090506; Thread:23; Message:Test harness 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html' for file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts' finished with 1 passed, 0 failed and 0 errors
+devenv.exe Information: 0 : Time:19:58:06.7246736; Thread:23; Message:Finished running headless browser on test harness 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\_Chutzpah.35f4caed912c3bbfdcb643f62f41c348b608d55b.test.html' for file 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts'
+devenv.exe Information: 0 : Time:19:58:06.7246736; Thread:23; Message:Finished test run for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts in Execution mode
+devenv.exe Information: 0 : Time:19:58:06.7246736; Thread:23; Message:Cleaning up test context for C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\unittests\checkin-tests.ts
+devenv.exe Information: 0 : Time:19:58:06.7402995; Thread:23; Message:Chutzpah run finished with 1 passed, 0 failed and 0 errors
+devenv.exe Information: 0 : Time:19:58:06.7402995; Thread:23; Message:Chutzpah.json file cache cleared
+Informational: ------ Run test started ------
+Warning: Could not find test executor with URI 'executor://mstestadapter/v2'.  Make sure that the test executor is installed and supports .net runtime version  .
+Informational: ========== Run test finished: 0 run (0:00:08,2369507) ==========
+devenv.exe Information: 0 : Time:19:58:35.3885632; Thread:5; Message:Begin GetTestContainers
+devenv.exe Information: 0 : Time:19:58:35.4005705; Thread:5; Message:End GetTestContainers
+devenv.exe Information: 0 : Time:19:58:35.4125799; Thread:5; Message:Test container comparision 23.04.2019 г. 19:33:43 vs 23.04.2019 г. 19:33:43 for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+Informational: ------ Discover test started ------
+Warning: No test is available in C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources\Webresources.csproj. Make sure that test discoverer & executors are registered and platform & framework version settings are appropriate and try again.
+Informational: ========== Discover test finished: 0 found (0:00:02,9057849) ==========
+Informational: ------ Run test started ------
+testhost.x86.exe Information: 0 : Time:19:58:53.5918461; Thread:13; Message:Chutzpah run started in mode Execution with parallelism set to 4
+testhost.x86.exe Information: 0 : Time:19:58:53.6921045; Thread:13; Message:Trying to build test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:58:53.7298831; Thread:13; Message:Building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:58:53.7654320; Thread:13; Message:Test file c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts matched folder c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests with includes **.ts and excludes **.d.ts patterns from settings file
+testhost.x86.exe Information: 0 : Time:19:58:53.8010151; Thread:13; Message:Investigating reference file path '../node_modules/knockout/build/output/knockout-latest.debug.js'
+testhost.x86.exe Information: 0 : Time:19:58:53.8301636; Thread:13; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:58:53.8458009; Thread:13; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\knockout\build\output\knockout-latest.debug.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:58:53.8614067; Thread:13; Message:Investigating reference file path '../node_modules/requirejs/require.js'
+testhost.x86.exe Information: 0 : Time:19:58:53.8926716; Thread:13; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\requirejs\require.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:58:53.9147870; Thread:13; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\node_modules\requirejs\require.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:58:53.9304223; Thread:13; Message:Investigating reference file path '../Webresources/sf365_/js/checkin.js'
+testhost.x86.exe Information: 0 : Time:19:58:53.9460605; Thread:13; Message:Added file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' to referenced files. Local: True, IncludeInTestHarness: True
+testhost.x86.exe Information: 0 : Time:19:58:53.9659717; Thread:13; Message:Processing referenced file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\Webresources\sf365_\js\checkin.js' for expanded references
+testhost.x86.exe Information: 0 : Time:19:58:54.0379350; Thread:13; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:58:54.1167553; Thread:13; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\QUnit\v1\qunit.css' to referenced files
+testhost.x86.exe Information: 0 : Time:19:58:54.1605748; Thread:13; Message:Added framework dependency 'C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\chutzpah_boot.js' to referenced files
+testhost.x86.exe Information: 0 : Time:19:58:54.2312371; Thread:13; Message:Finished building test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:58:54.2695798; Thread:13; Message:Skipping batch compile since all files are update to date for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\chutzpah.json
+testhost.x86.exe Information: 0 : Time:19:58:54.3091759; Thread:14; Message:Start test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Execution mode
+testhost.x86.exe Information: 0 : Time:19:58:54.5812868; Thread:14; Message:Using builtin Test Harness from C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahTestHarnessFiles\qunit\v1\qunit.html
+testhost.x86.exe Information: 0 : Time:19:58:54.6503164; Thread:14; Message:Invoking headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:58:54.7218532; Thread:14; Message:Started headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 14112 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" execution 10000 False 
+testhost.x86.exe Information: 0 : Time:19:58:57.0667111; Thread:11; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:58:57.0979432; Thread:8; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:58:57.1216281; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.1384093; Thread:8; Message:Phantom Log - Url Change file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:58:57.1696581; Thread:8; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:58:57.2054588; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html
+testhost.x86.exe Information: 0 : Time:19:58:57.2293424; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.2449658; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:58:57.2774430; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.2930685; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/chutzpah_boot.js
+testhost.x86.exe Information: 0 : Time:19:58:57.3086915; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.3399416; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:58:57.3555802; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.3868106; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.css
+testhost.x86.exe Information: 0 : Time:19:58:57.4024344; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.4180586; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:58:57.4337030; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.4508787; Thread:8; Message:Phantom Log - Resource Recieved: file:///C:/USERS/LUBO/APPDATA/LOCAL/MICROSOFT/VISUALSTUDIO/15.0_BC45E230/EXTENSIONS/COR5CCJH.NMD/ChutzpahTestHarnessFiles/QUnit/v1/qunit.js
+testhost.x86.exe Information: 0 : Time:19:58:57.4668724; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.4792389; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:58:57.4948816; Thread:8; Message:Phantom Log - isQunitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.5108893; Thread:8; Message:Phantom Log - onQUnitLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.5191812; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/knockout/build/output/knockout-latest.debug.js
+testhost.x86.exe Information: 0 : Time:19:58:57.5348083; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/requirejs/require.js
+testhost.x86.exe Information: 0 : Time:19:58:57.5504337; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/node_modules/requirejs/require.js
+testhost.x86.exe Information: 0 : Time:19:58:57.5660584; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:58:57.5816953; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/Webresources/sf365_/js/checkin.js
+testhost.x86.exe Information: 0 : Time:19:58:57.5973048; Thread:8; Message:Phantom Log - Test file is using module loader.
+testhost.x86.exe Information: 0 : Time:19:58:57.6129422; Thread:8; Message:Phantom Log - onPageLoaded
+testhost.x86.exe Information: 0 : Time:19:58:57.6285524; Thread:8; Message:Phantom Log - Test file is using module loader.
+testhost.x86.exe Information: 0 : Time:19:58:57.6441771; Thread:8; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/checkin-tests.js
+testhost.x86.exe Information: 0 : Time:19:58:57.6598161; Thread:11; Message:Phantom Log - Resource Recieved: file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/checkin-tests.js
+testhost.x86.exe Information: 0 : Time:19:58:57.6754391; Thread:11; Message:Phantom Log - Starting QUnit from inline AMD call...
+testhost.x86.exe Information: 0 : Time:19:58:57.6910637; Thread:11; Message:Phantom Log - isTestingDone
+testhost.x86.exe Information: 0 : Time:19:58:58.0374567; Thread:11; Message:Test Case Started:'Client Unit Tests:Check Test'
+testhost.x86.exe Information: 0 : Time:19:58:58.0530674; Thread:11; Message:Phantom Log - Alert raised with message bang
+testhost.x86.exe Information: 0 : Time:19:58:58.1468074; Thread:11; Message:Test Case Finished:'Client Unit Tests:Check Test'
+testhost.x86.exe Information: 0 : Time:19:58:58.1624481; Thread:11; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:58:58.1780584; Thread:11; Message:Phantom Log - Url Change about:blank
+testhost.x86.exe Information: 0 : Time:19:58:58.1936822; Thread:11; Message:Phantom Log - onInitialized
+testhost.x86.exe Information: 0 : Time:19:58:58.3211475; Thread:14; Message:Finished reading stream from test file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:58:58.3367225; Thread:14; Message:Ended headless browser: C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\phantomjs.exe with PID: 14112 using args: --ignore-ssl-errors=true --proxy-type=none --ssl-protocol=any "C:\USERS\LUBO\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_BC45E230\EXTENSIONS\COR5CCJH.NMD\ChutzpahJSRunners\Phantom\qunitRunner.js" "file:///c:/development/udemy-dynamics365-flight365/second-solution/webresources/unittests/_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html" execution 10000 False 
+testhost.x86.exe Information: 0 : Time:19:58:58.3679603; Thread:14; Message:Test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts' finished with 1 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:58:58.3992092; Thread:14; Message:Finished running headless browser on test harness 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\_Chutzpah.29a1d0c4d43e5d1d9417da4ce8c85b240afb63e2.test.html' for file 'c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts'
+testhost.x86.exe Information: 0 : Time:19:58:58.4304572; Thread:14; Message:Finished test run for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts in Execution mode
+testhost.x86.exe Information: 0 : Time:19:58:58.4740221; Thread:13; Message:Cleaning up test context for c:\development\udemy-dynamics365-flight365\second-solution\webresources\unittests\checkin-tests.ts
+testhost.x86.exe Information: 0 : Time:19:58:58.5130045; Thread:13; Message:Chutzpah run finished with 1 passed, 0 failed and 0 errors
+testhost.x86.exe Information: 0 : Time:19:58:58.5339884; Thread:13; Message:Chutzpah.json file cache cleared
+testhost.x86.exe Information: 0 : Time:19:58:58.5579743; Thread:13; Message:End Test Adapter Run Tests
+Informational: ========== Run test finished: 1 run (0:00:19,2697766) ==========
+Informational: ------ Run test started ------
+Informational: ========== Run test finished: 0 run (0:00:05,805679) ==========
