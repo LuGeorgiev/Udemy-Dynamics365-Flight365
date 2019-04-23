@@ -12,6 +12,7 @@ var sf365;
             };
             return CheckInViewModel;
         }());
+        checkin.CheckInViewModel = CheckInViewModel;
     })(checkin = sf365.checkin || (sf365.checkin = {}));
 })(sf365 || (sf365 = {}));
 //# sourceMappingURL=checkin.js.map

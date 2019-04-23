@@ -159,12 +159,14 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="unittests\chutzpah.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Webresources\sf365_\html\" />
     <Folder Include="Webresources\sf365_\imgs\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="unittests\checkin-tests.ts" />
     <TypeScriptCompile Include="Webresources\sf365_\js\checkin.ts" />
   </ItemGroup>
   <ItemGroup>
