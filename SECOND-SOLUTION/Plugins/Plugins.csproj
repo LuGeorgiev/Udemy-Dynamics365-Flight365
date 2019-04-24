@@ -68,6 +68,8 @@
   <ItemGroup>
     <Compile Include="AccountPlugin.cs" />
     <Compile Include="CrmPluginRegistrationAttribute.cs" />
+    <Compile Include="EarlyBoundTypes.cs" />
+    <Compile Include="ExchangeRateActionPlugin.cs" />
     <Compile Include="PluginBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

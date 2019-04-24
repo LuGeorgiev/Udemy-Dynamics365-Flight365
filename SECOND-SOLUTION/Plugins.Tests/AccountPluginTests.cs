@@ -7,7 +7,7 @@ using SF365Plugins;
 namespace Plugins.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class AccountPluginTests
     {
         [TestMethod]
         [TestCategory("Unit Tests")]
