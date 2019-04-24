@@ -18,3 +18,9 @@
 8:38:42 AM	Updating Step 'Pre-Update account'
 8:38:43 AM	Updating Image 'PreImage'
 8:38:43 AM	Processed 1 config(s)
+1:47:55 PM	Generating early bound types
+1:47:55 PM	Searching for plugin config in 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\spkl\..'
+1:47:55 PM	Using Config 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins'
+1:47:55 PM	Target C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools
+1:47:56 PM	Running C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\spkl.1.0.226\tools\..\..\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\CrmSvcUtil.exe /connstr:"AuthType=Office365;Url=https://lugeorgiev.api.crm4.dynamics.com/XRMServices/2011/Organization.svc;Username=lugeorgiev@lugeorgiev.onmicrosoft.com;Password=gJXbSPBYDrZ5nW5" /out:"C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\EarlyBoundTypes.cs" /namespace:"sf365" /serviceContextName:"XrmSvc" /GenerateActions:"False" /codewriterfilter:"spkl.CrmSvcUtilExtensions.FilteringService,spkl.CrmSvcUtilExtensions" /codewritermessagefilter:"spkl.CrmSvcUtilExtensions.MessageFilteringService,spkl.CrmSvcUtilExtensions" /codegenerationservice:"spkl.CrmSvcUtilExtensions.CodeGenerationService, spkl.CrmSvcUtilExtensions" /metadataproviderqueryservice:"spkl.CrmSvcUtilExtensions.MetadataProviderQueryService,spkl.CrmSvcUtilExtensions"
+1:48:12 PM	Processed 1 config(s)

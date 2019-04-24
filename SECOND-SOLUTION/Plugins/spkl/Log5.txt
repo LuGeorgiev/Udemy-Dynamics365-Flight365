@@ -1,0 +1,4 @@
+1:47:59 PM	c 2017 Microsoft Corporation. All rights reserved
+1:47:59 PM	
+1:48:00 PM	Loading config from 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\packages\Microsoft.CrmSdk.CoreTools.9.0.0.7\content\bin\coretools\spkl.crmsvcutil.config'
+1:48:12 PM	Code written to C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\EarlyBoundTypes.cs.
