@@ -16,6 +16,6 @@ namespace SF365.Plugins
         //public JsonDictionary<double> rates { get; set; }
 
         [DataMember]
-        public Dictionary<string, double> rates { get; set; }
+        public Dictionary<string, double> rates { get; set; } = new Dictionary<string, double>();
     }
 }

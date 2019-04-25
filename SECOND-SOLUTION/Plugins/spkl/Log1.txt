@@ -38,3 +38,17 @@
 12:49:49 PM	3 plugin(s) found!
 12:49:51 PM	Updating Plugin 'SF365Plugins' from 'C:\Users\lugeorgiev\Documents\Programming\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\bin\Debug\SF365Plugins.dll'
 12:49:52 PM	Updating Type 'SF365.Plugins.ExchangeRateActionPlugin'
+23:39:45	Deploying Plugins
+23:39:45	Searching for plugin config in 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\spkl\..'
+23:39:45	Using Config 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins'
+23:39:45	Checking assembly 'SF365Plugins.dll' for plugins
+23:39:45	4 plugin(s) found!
+23:39:48	Updating Plugin 'SF365Plugins' from 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\bin\Debug\SF365Plugins.dll'
+23:39:49	Updating Type 'SF365.Plugins.ExchangeRateActionPlugin'
+23:41:13	Deploying Plugins
+23:41:13	Searching for plugin config in 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\spkl\..'
+23:41:13	Using Config 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins'
+23:41:14	Checking assembly 'SF365Plugins.dll' for plugins
+23:41:14	4 plugin(s) found!
+23:41:16	Updating Plugin 'SF365Plugins' from 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Plugins\bin\Debug\SF365Plugins.dll'
+23:41:18	Updating Type 'SF365.Plugins.ExchangeRateActionPlugin'
