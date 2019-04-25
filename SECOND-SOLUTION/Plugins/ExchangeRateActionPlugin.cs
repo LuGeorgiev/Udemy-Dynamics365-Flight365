@@ -13,10 +13,10 @@ using System.Threading.Tasks;
 namespace SF365.Plugins
 {
     [CrmPluginRegistration("sf365_updateexchangerates",
-        "",
+        "none",
         StageEnum.PostOperation,
         ExecutionModeEnum.Synchronous,
-        "name",
+        "",
         "sf365_updateexchangerates",
         1000,
         IsolationModeEnum.Sandbox)]
