@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountPluginTests.cs" />
-    <Compile Include="ExchangeRateTests.cs" />
+    <Compile Include="ExchangeRatesTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

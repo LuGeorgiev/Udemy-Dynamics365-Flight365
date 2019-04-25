@@ -1,6 +1,8 @@
 ﻿using System;
-using Microsoft.Crm.Sdk.Fakes;
+using System.Text;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.Crm.Sdk.Fakes;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Messages;
 using sf365;
@@ -8,18 +10,21 @@ using SF365.Plugins;
 
 namespace Plugins.Tests
 {
+    /// <summary>
+    /// Summary description for ExchangeRatesTests
+    /// </summary>
     [TestClass]
-    class ExchangeRateTests
+    public class ExchangeRatesTests
     {
 
         [TestMethod]
         [TestCategory("Unit Tests")]
-        public void TestUpdateExchangeRates()
+        public void ExchangeRateTest()
         {
             using (var pipeline = new PluginPipeline(
-                "sf365_updateexchangerates", 
-                FakeStages.PreOperation, 
-                new Entity("sf365_updateexchangerates")))
+               "sf365_updateexchangerates",
+               FakeStages.PreOperation,
+               new Entity("sf365_updateexchangerates")))
             {
                 pipeline.FakeService.ExpectExecute((OrganizationRequest request) =>
                 {
