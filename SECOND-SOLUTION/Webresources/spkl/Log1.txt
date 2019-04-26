@@ -7,3 +7,12 @@
 9:32:51 AM	Publish complete.
 9:32:51 AM	Processed 1 section(s)
 9:32:51 AM	Processed 1 config(s)
+18:59:39	Deploying WebResources
+18:59:40	Using Config 'C:\Development\Udemy-Dynamics365-Flight365\SECOND-SOLUTION\Webresources'
+18:59:43	Creating Webresource 'sf365_\js\clienthooks.js' -> 'sf365_/js/clienthooks.js'
+18:59:44	Adding to solution 'SpaceFlight365_Patch_4d54cea1'
+18:59:49	Deployed 1 webresource(s)
+18:59:49	Publishing 1 webresources...
+18:59:54	Publish complete.
+18:59:54	Processed 1 section(s)
+18:59:54	Processed 1 config(s)

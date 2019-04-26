@@ -123,8 +123,12 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe" />
     <Content Include="bin\Webresources.dll" />
     <Content Include="bin\Webresources.pdb" />
+    <Content Include="ClientHooks\out\clienthooks.js" />
+    <Content Include="gulpfile.js" />
+    <Content Include="out\common.js" />
     <Content Include="Webresources\sf365_\js\checkin.js" />
     <Content Include="Web.config" />
+    <Content Include="Webresources\sf365_\js\ClientHooks.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,6 +147,9 @@
     <Content Include="bin\Webresources.dll.config" />
     <Content Include="bin\coretools\LicenseTerms.docx" />
     <Content Include="bin\coretools\CrmSvcUtil.exe.config" />
+    <Content Include="ClientHooks\tsconfig.json" />
+    <Content Include="ClientHooks\out\clienthooks.js.map" />
+    <Content Include="out\common.js.map" />
     <None Include="packages.config" />
     <Content Include="spkl\unpack.bat" />
     <Content Include="spkl\pack+import.bat" />
@@ -153,6 +160,7 @@
     <Content Include="spkl\deploy-webresources.bat" />
     <Content Include="spkl\deploy-plugins.bat" />
     <Content Include="spkl.json" />
+    <Content Include="tsconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -160,12 +168,23 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="unittests\chutzpah.json" />
+    <Content Include="Webresources\sf365_\js\ClientHooks.js.map" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ClientUI\src\" />
+    <Folder Include="sf365_\html\" />
+    <Folder Include="sf365_\imgs\" />
     <Folder Include="Webresources\sf365_\html\" />
     <Folder Include="Webresources\sf365_\imgs\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ClientHooks\src\forms\bookin-form.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\forms\passanger-form.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\metadata.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\ResourceStrings.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\ribbon\booking-ribbon.ts" />
+    <TypeScriptCompile Include="ClientHooks\src\ribbon\ribbon-lib.ts" />
+    <TypeScriptCompile Include="Common\src\common.ts" />
     <TypeScriptCompile Include="unittests\checkin-tests.ts" />
     <TypeScriptCompile Include="Webresources\sf365_\js\checkin.ts" />
   </ItemGroup>
