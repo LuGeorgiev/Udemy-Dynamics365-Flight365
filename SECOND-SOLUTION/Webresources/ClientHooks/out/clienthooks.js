@@ -185,7 +185,6 @@ var sf365;
                     text: sf365.ResourceStrings.AreYouSure
                 }, null).then(function (result) {
                     if (result.confirmed) {
-                        // TODO: Cancel
                     }
                 });
             };
@@ -201,6 +200,36 @@ var sf365;
                         }
                     });
                 });
+            };
+            BookingCommands.populateUpgradeFlyout = function (commandProperties, formContext) {
+                // Get Flight Attribute
+                var flightid = formContext.data.entity.attributes
+                    .get(sf365.sf365_booking._meta.attributes.sf365_flightid)
+                    .getValue();
+                commandProperties.PopulationXML = BookingCommands.getUpgradeOptionsXml(flightid);
+            };
+            BookingCommands.getUpgradeOptionsXml = function (flightId) {
+                return __awaiter(this, void 0, void 0, function () {
+                    var flight, ribbonMenuSection, actionSection;
+                    return __generator(this, function (_a) {
+                        switch (_a.label) {
+                            case 0: return [4 /*yield*/, Xrm.WebApi.retrieveRecord(sf365.sf365_flight._meta.logicalname, flightId[0].id, "?$select=" + sf365.sf365_flight._meta.attributes.sf365_routeid_value)];
+                            case 1:
+                                flight = _a.sent();
+                                ribbonMenuSection = new Ribbon.RibbonMenu("sf365.BookingActions");
+                                actionSection = new Ribbon.RibbonMenuSection("Section1", "Actions", 1, "Menu16");
+                                actionSection.addButton(new Ribbon.RibbonButton("sf365_booking.Upgrade1", 1, "Confirm - " + flight[sf365.sf365_flight._meta.attributes.sf365_routeid_name], "sf365.sf365_booking.Upgrade.Command", "/_imgs/ribbon/Activate_16.png", ""));
+                                ribbonMenuSection.addSection(actionSection);
+                                return [2 /*return*/, ribbonMenuSection.serialiseToRibbonXml()];
+                        }
+                    });
+                });
+            };
+            BookingCommands.upgradeCommand = function (commandId, formContext) {
+                Xrm.Navigation.openAlertDialog({
+                    text: "Clicked : " + formContext.getAttribute("sf365_bookingreference").getValue(),
+                    confirmButtonLabel: "Done!"
+                }, { height: 100, width: 200 });
             };
             return BookingCommands;
         }());
