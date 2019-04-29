@@ -3,7 +3,7 @@
     export class FlightGrid {
 
         static getStatusIcon(rowData: string, userLCID: number) {
-            debugger
+            
             var flight: sf365_flight = JSON.parse(rowData);
 
             var imageName = "";

@@ -3,7 +3,7 @@
 namespace sf365.forms {
     export class booking {
 
-        static onLoad(executionContext:Xrm.Page.EventContext) {
+        static onLoad(executionContext: Xrm.Page.EventContext) {
             var formContext = executionContext.getFormContext();
             const flightAttribute = formContext.data.entity.attributes
                 .get<Xrm.Page.LookupAttribute>(sf365_booking._meta.attributes.sf365_flightid);
@@ -66,8 +66,7 @@ namespace sf365.forms {
                         "Price has changed",
                         "WARNING",
                         "price");
-            }
-            else {
+            } else {
                 formContext.ui.clearFormNotification("price");
             }
 
