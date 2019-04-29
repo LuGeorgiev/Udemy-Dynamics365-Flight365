@@ -135,6 +135,9 @@ var sf365;
                 var flightAttribute = formContext.data.entity.attributes
                     .get(sf365.sf365_booking._meta.attributes.sf365_flightid);
                 flightAttribute.addOnChange(sf365.forms.booking.flight_onchange);
+                var passengerGrid = formContext
+                    .getControl("Passengers");
+                passengerGrid.addOnLoad(function () { return booking.passengerGrid_OnLoad(formContext); });
             };
             booking.flight_onchange = function (executionContext) {
                 var formConext = executionContext.getFormContext();
@@ -154,6 +157,29 @@ var sf365;
                     });
                 }
             };
+            booking.passengerGrid_OnLoad = function (formContext) {
+                var totalPrice = formContext
+                    .getAttribute(sf365.sf365_booking
+                    ._meta.attributes.sf365_totalprice);
+                var passengerGrid = formContext
+                    .getControl("Passengers");
+                var total = 0;
+                passengerGrid.getGrid().getRows().forEach(function (row) {
+                    var priceAttribute = row.data.entity.attributes
+                        .get(sf365.sf365_passenger._meta.attributes.sf365_price);
+                    if (priceAttribute != null) {
+                        var value = priceAttribute.getValue();
+                        total += value;
+                    }
+                });
+                if (totalPrice.getValue() != total) {
+                    formContext.ui
+                        .setFormNotification("Price has changed", "WARNING", "price");
+                }
+                else {
+                    formContext.ui.clearFormNotification("price");
+                }
+            };
             return booking;
         }());
         forms.booking = booking;
@@ -163,15 +189,94 @@ var sf365;
 (function (sf365) {
     var forms;
     (function (forms) {
-        var passanger = /** @class */ (function () {
-            function passanger() {
+        var passenger = /** @class */ (function () {
+            function passenger() {
             }
-            passanger.onLoad = function () {
+            passenger.onLoad = function (executionContext) {
+                var formContext = executionContext.getFormContext();
+                var seatclassid = formContext.data.entity.attributes
+                    .get(sf365.sf365_passenger
+                    ._meta.attributes.sf365_seatclassid);
+                seatclassid.addOnChange(passenger.flight_onchange);
             };
-            return passanger;
+            passenger.flight_onchange = function (executionContext) {
+                return __awaiter(this, void 0, void 0, function () {
+                    var formContext, seatclassid, seatclass, priceAttribute;
+                    return __generator(this, function (_a) {
+                        switch (_a.label) {
+                            case 0:
+                                formContext = executionContext.getFormContext();
+                                seatclassid = formContext.data.entity.attributes
+                                    .get(sf365.sf365_passenger.
+                                    _meta.attributes.sf365_seatclassid).getValue();
+                                if (!(seatclassid != null)) return [3 /*break*/, 2];
+                                return [4 /*yield*/, Xrm.WebApi.retrieveRecord(sf365.sf365_seat._meta.logicalname, seatclassid[0].id, "?$select=" + sf365.sf365_seat._meta.attributes.sf365_price)];
+                            case 1:
+                                seatclass = _a.sent();
+                                priceAttribute = formContext.data.entity
+                                    .attributes.get(sf365.sf365_passenger
+                                    ._meta.attributes.sf365_price);
+                                priceAttribute.setValue(seatclass.sf365_price);
+                                _a.label = 2;
+                            case 2: return [2 /*return*/];
+                        }
+                    });
+                });
+            };
+            return passenger;
         }());
-        forms.passanger = passanger;
+        forms.passenger = passenger;
     })(forms = sf365.forms || (sf365.forms = {}));
+})(sf365 || (sf365 = {}));
+var sf365;
+(function (sf365) {
+    var Grids;
+    (function (Grids) {
+        var FlightGrid = /** @class */ (function () {
+            function FlightGrid() {
+            }
+            FlightGrid.getStatusIcon = function (rowData, userLCID) {
+                debugger;
+                var flight = JSON.parse(rowData);
+                var imageName = "";
+                switch (flight.statuscode_Value) {
+                    case "869190005":
+                        imageName = "sf365_/imgs/delayed.svg";
+                        break;
+                    default:
+                        imageName = "sf365_/imgs/scheduled.svg";
+                        break;
+                }
+                var statusInfo = [imageName, flight.statuscode];
+                return statusInfo;
+            };
+            return FlightGrid;
+        }());
+        Grids.FlightGrid = FlightGrid;
+    })(Grids = sf365.Grids || (sf365.Grids = {}));
+})(sf365 || (sf365 = {}));
+var sf365;
+(function (sf365) {
+    var Grids;
+    (function (Grids) {
+        var PassengerGrid = /** @class */ (function () {
+            function PassengerGrid() {
+            }
+            PassengerGrid.onRecordSelect = function (executionContext) {
+                var formContext = executionContext.getFormContext();
+                var seatclassid = formContext.data.entity
+                    .attributes.get(sf365.sf365_passenger
+                    ._meta.attributes.sf365_seatclassid);
+                seatclassid.addOnChange(sf365.forms.passenger.flight_onchange);
+            };
+            PassengerGrid.onSave = function (executionContext) {
+            };
+            PassengerGrid.onChange = function (executionContext) {
+            };
+            return PassengerGrid;
+        }());
+        Grids.PassengerGrid = PassengerGrid;
+    })(Grids = sf365.Grids || (sf365.Grids = {}));
 })(sf365 || (sf365 = {}));
 var sf365;
 (function (sf365) {

@@ -2,13 +2,17 @@
 
 namespace sf365.forms {
     export class booking {
+
         static onLoad(executionContext:Xrm.Page.EventContext) {
             var formContext = executionContext.getFormContext();
             const flightAttribute = formContext.data.entity.attributes
                 .get<Xrm.Page.LookupAttribute>(sf365_booking._meta.attributes.sf365_flightid);
 
             flightAttribute.addOnChange(sf365.forms.booking.flight_onchange);
-            
+
+            const passengerGrid = <Xrm.Controls.GridControl>formContext
+                .getControl("Passengers");
+            passengerGrid.addOnLoad(() => booking.passengerGrid_OnLoad(formContext));
         }
 
         static flight_onchange(executionContext: Xrm.Page.EventContext) {
@@ -34,6 +38,39 @@ namespace sf365.forms {
                     });
 
             }
+        }
+
+        static passengerGrid_OnLoad(formContext: Xrm.FormContext): any {
+
+            var totalPrice = formContext
+                .getAttribute<Xrm.Page.NumberAttribute>(sf365_booking
+                    ._meta.attributes.sf365_totalprice);
+
+            const passengerGrid = <Xrm.Controls.GridControl>formContext
+                .getControl("Passengers");
+            var total = 0;
+
+            passengerGrid.getGrid().getRows().forEach((row) => {
+                var priceAttribute = row.data.entity.attributes
+                    .get(sf365_passenger._meta.attributes.sf365_price);
+                if (priceAttribute != null) {
+                    var value = priceAttribute.getValue();
+                    total += value;
+                }
+            });
+
+            if (totalPrice.getValue() != total) {
+
+                formContext.ui
+                    .setFormNotification(
+                        "Price has changed",
+                        "WARNING",
+                        "price");
+            }
+            else {
+                formContext.ui.clearFormNotification("price");
+            }
+
         }
     }
 }
