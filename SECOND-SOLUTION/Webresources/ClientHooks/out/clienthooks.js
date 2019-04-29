@@ -57,6 +57,71 @@ var sf365;
     }());
     sf365.ResourceStrings = ResourceStrings;
 })(sf365 || (sf365 = {}));
+var sf365;
+(function (sf365) {
+    var sf365_bookingStatus;
+    (function (sf365_bookingStatus) {
+        sf365_bookingStatus[sf365_bookingStatus["Enquiry"] = 1] = "Enquiry";
+        sf365_bookingStatus[sf365_bookingStatus["Confirmed"] = 869190000] = "Confirmed";
+        sf365_bookingStatus[sf365_bookingStatus["Paid"] = 869190001] = "Paid";
+    })(sf365_bookingStatus = sf365.sf365_bookingStatus || (sf365.sf365_bookingStatus = {}));
+    var sf365_booking = /** @class */ (function () {
+        function sf365_booking() {
+        }
+        sf365_booking._meta = {
+            logicalname: "sf365_booking",
+            attributes: {
+                sf365_routeid: "sf365_routeid",
+                sf365_flightid: "sf365_flightid",
+                sf365_totalprice: "sf365_totalprice"
+            }
+        };
+        return sf365_booking;
+    }());
+    sf365.sf365_booking = sf365_booking;
+    var sf365_flight = /** @class */ (function () {
+        function sf365_flight() {
+        }
+        sf365_flight._meta = {
+            logicalname: "sf365_flight",
+            attributes: {
+                sf365_routeid: "sf365_routeid",
+                sf365_routeid_value: "_sf365_routeid_value",
+                sf365_routeid_name: "_sf365_routeid_value@OData.Community.Display.V1.FormattedValue",
+                sf365_routeid_logicalname: "_sf365_routeid_value@Microsoft.Dynamics.CRM.lookuplogicalname"
+            }
+        };
+        return sf365_flight;
+    }());
+    sf365.sf365_flight = sf365_flight;
+    var sf365_passenger = /** @class */ (function () {
+        function sf365_passenger() {
+        }
+        sf365_passenger._meta = {
+            logicalname: "sf365_passenger",
+            attributes: {
+                sf365_flightid: "sf365_routeid",
+                sf365_seatclassid: "sf365_seatclassid",
+                sf365_seatclassid_value: "_sf365_seatclassid_value",
+                sf365_price: "sf365_price"
+            }
+        };
+        return sf365_passenger;
+    }());
+    sf365.sf365_passenger = sf365_passenger;
+    var sf365_seat = /** @class */ (function () {
+        function sf365_seat() {
+        }
+        sf365_seat._meta = {
+            logicalname: "sf365_seat",
+            attributes: {
+                sf365_price: "sf365_price"
+            }
+        };
+        return sf365_seat;
+    }());
+    sf365.sf365_seat = sf365_seat;
+})(sf365 || (sf365 = {}));
 /// <reference path="../../../node_modules/@types/xrm/index.d.ts" />
 var sf365;
 (function (sf365) {
@@ -165,68 +230,52 @@ var sf365;
 })(sf365 || (sf365 = {}));
 var sf365;
 (function (sf365) {
-    var sf365_bookingStatus;
-    (function (sf365_bookingStatus) {
-        sf365_bookingStatus[sf365_bookingStatus["Enquiry"] = 1] = "Enquiry";
-        sf365_bookingStatus[sf365_bookingStatus["Confirmed"] = 869190000] = "Confirmed";
-        sf365_bookingStatus[sf365_bookingStatus["Paid"] = 869190001] = "Paid";
-    })(sf365_bookingStatus = sf365.sf365_bookingStatus || (sf365.sf365_bookingStatus = {}));
-    var sf365_booking = /** @class */ (function () {
-        function sf365_booking() {
-        }
-        sf365_booking._meta = {
-            logicalname: "sf365_booking",
-            attributes: {
-                sf365_routeid: "sf365_routeid",
-                sf365_flightid: "sf365_flightid",
-                sf365_totalprice: "sf365_totalprice"
+    var Grids;
+    (function (Grids) {
+        var FlightGrid = /** @class */ (function () {
+            function FlightGrid() {
             }
-        };
-        return sf365_booking;
-    }());
-    sf365.sf365_booking = sf365_booking;
-    var sf365_flight = /** @class */ (function () {
-        function sf365_flight() {
-        }
-        sf365_flight._meta = {
-            logicalname: "sf365_flight",
-            attributes: {
-                sf365_routeid: "sf365_routeid",
-                sf365_routeid_value: "_sf365_routeid_value",
-                sf365_routeid_name: "_sf365_routeid_value@OData.Community.Display.V1.FormattedValue",
-                sf365_routeid_logicalname: "_sf365_routeid_value@Microsoft.Dynamics.CRM.lookuplogicalname"
+            FlightGrid.getStatusIcon = function (rowData, userLCID) {
+                var flight = JSON.parse(rowData);
+                var imageName = "";
+                switch (flight.statuscode_Value) {
+                    case "869190005":
+                        imageName = "sf365_/imgs/delayed.svg";
+                        break;
+                    default:
+                        imageName = "sf365_/imgs/scheduled.svg";
+                        break;
+                }
+                var statusInfo = [imageName, flight.statuscode];
+                return statusInfo;
+            };
+            return FlightGrid;
+        }());
+        Grids.FlightGrid = FlightGrid;
+    })(Grids = sf365.Grids || (sf365.Grids = {}));
+})(sf365 || (sf365 = {}));
+var sf365;
+(function (sf365) {
+    var Grids;
+    (function (Grids) {
+        var PassengerGrid = /** @class */ (function () {
+            function PassengerGrid() {
             }
-        };
-        return sf365_flight;
-    }());
-    sf365.sf365_flight = sf365_flight;
-    var sf365_passenger = /** @class */ (function () {
-        function sf365_passenger() {
-        }
-        sf365_passenger._meta = {
-            logicalname: "sf365_passenger",
-            attributes: {
-                sf365_flightid: "sf365_routeid",
-                sf365_seatclassid: "sf365_seatclassid",
-                sf365_seatclassid_value: "_sf365_seatclassid_value",
-                sf365_price: "sf365_price"
-            }
-        };
-        return sf365_passenger;
-    }());
-    sf365.sf365_passenger = sf365_passenger;
-    var sf365_seat = /** @class */ (function () {
-        function sf365_seat() {
-        }
-        sf365_seat._meta = {
-            logicalname: "sf365_seat",
-            attributes: {
-                sf365_price: "sf365_price"
-            }
-        };
-        return sf365_seat;
-    }());
-    sf365.sf365_seat = sf365_seat;
+            PassengerGrid.onRecordSelect = function (executionContext) {
+                var formContext = executionContext.getFormContext();
+                var seatclassid = formContext.data.entity
+                    .attributes.get(sf365.sf365_passenger
+                    ._meta.attributes.sf365_seatclassid);
+                seatclassid.addOnChange(sf365.forms.passenger.flight_onchange);
+            };
+            PassengerGrid.onSave = function (executionContext) {
+            };
+            PassengerGrid.onChange = function (executionContext) {
+            };
+            return PassengerGrid;
+        }());
+        Grids.PassengerGrid = PassengerGrid;
+    })(Grids = sf365.Grids || (sf365.Grids = {}));
 })(sf365 || (sf365 = {}));
 var sf365;
 (function (sf365) {
@@ -397,54 +446,5 @@ var sf365;
         }());
         Ribbon.CommandProperties = CommandProperties;
     })(Ribbon = sf365.Ribbon || (sf365.Ribbon = {}));
-})(sf365 || (sf365 = {}));
-var sf365;
-(function (sf365) {
-    var Grids;
-    (function (Grids) {
-        var FlightGrid = /** @class */ (function () {
-            function FlightGrid() {
-            }
-            FlightGrid.getStatusIcon = function (rowData, userLCID) {
-                var flight = JSON.parse(rowData);
-                var imageName = "";
-                switch (flight.statuscode_Value) {
-                    case "869190005":
-                        imageName = "sf365_/imgs/delayed.svg";
-                        break;
-                    default:
-                        imageName = "sf365_/imgs/scheduled.svg";
-                        break;
-                }
-                var statusInfo = [imageName, flight.statuscode];
-                return statusInfo;
-            };
-            return FlightGrid;
-        }());
-        Grids.FlightGrid = FlightGrid;
-    })(Grids = sf365.Grids || (sf365.Grids = {}));
-})(sf365 || (sf365 = {}));
-var sf365;
-(function (sf365) {
-    var Grids;
-    (function (Grids) {
-        var PassengerGrid = /** @class */ (function () {
-            function PassengerGrid() {
-            }
-            PassengerGrid.onRecordSelect = function (executionContext) {
-                var formContext = executionContext.getFormContext();
-                var seatclassid = formContext.data.entity
-                    .attributes.get(sf365.sf365_passenger
-                    ._meta.attributes.sf365_seatclassid);
-                seatclassid.addOnChange(sf365.forms.passenger.flight_onchange);
-            };
-            PassengerGrid.onSave = function (executionContext) {
-            };
-            PassengerGrid.onChange = function (executionContext) {
-            };
-            return PassengerGrid;
-        }());
-        Grids.PassengerGrid = PassengerGrid;
-    })(Grids = sf365.Grids || (sf365.Grids = {}));
 })(sf365 || (sf365 = {}));
 //# sourceMappingURL=clienthooks.js.map

@@ -26,6 +26,11 @@
           "description": ""
         },
         {
+          "uniquename": "sf365_/js/clientyi.js",
+          "file": "sf365_\\js\\clientui.js",
+          "description": ""
+        },
+        {
           "uniquename": "sf365_/imgs/delayed.svg",
           "file": "sf365_\\imgs\\delayed.svg",
           "description": ""
