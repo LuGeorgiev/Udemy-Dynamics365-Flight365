@@ -2,7 +2,7 @@
 var gulp = require('gulp');
 var sourcemaps = require('gulp-sourcemaps');
 var watch = require('gulp-watch');
-//var concat = require('gulp-concat');
+var concat = require('gulp-concat');
 
 //var uglify = require('gulp-uglify');
 //var gulpif = require('gulp-if');
@@ -54,18 +54,18 @@ gulp.task('build-clientui', () => {
         .pipe(gulp.dest('./Webresources/sf365_/js'));
 })
 
-//gulp.task('build-clientui-lib',
-//    () => {
-//        gulp.src([
-//            './node_modules/jquery/dist/jquery.js',
-//            './libs/jqueryui/jquery-ui.js',
-//            './node_modules/knockout/build/output/knockout-latest.js',
-//            './libs/knockout-sortable.js',
-//            './node_modules/jquery-ui-touch-punch/jquery.ui.touch-punch.js'
-//        ])
+gulp.task('build-clientui-lib',
+    () => {
+        gulp.src([
+            './node_modules/jquery/dist/jquery.js',
+            './libs/jqueryui/jquery-ui.js',
+            './node_modules/knockout/build/output/knockout-latest.js',
+            './libs/knockout-sortable.js',
+            './node_modules/jquery-ui-touch-punch/jquery.ui.touch-punch.js'
+        ])
 
-//            .pipe(concat('ClientUILibs.js'))
-//            .pipe(gulp.dest('./Webresources/sf365_/js'));
+            .pipe(concat('ClientUILibs.js'))
+            .pipe(gulp.dest('./Webresources/sf365_/js'));
 
-//    });
+    });
 

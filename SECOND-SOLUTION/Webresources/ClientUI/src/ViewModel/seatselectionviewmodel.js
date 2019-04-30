@@ -1,3 +1,6 @@
+/// <reference path="../lib/sortable.ts" />
+/// <reference path="../../../node_modules/@types/xrm/index.d.ts" />
+/// <reference path="../lib/guid.ts" />
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -33,91 +36,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-var sf365;
-(function (sf365) {
-    var ResourceStrings = /** @class */ (function () {
-        function ResourceStrings() {
-        }
-        ResourceStrings.AreYouSure = "Are you sure?";
-        return ResourceStrings;
-    }());
-    sf365.ResourceStrings = ResourceStrings;
-})(sf365 || (sf365 = {}));
-/// <reference path="../lib/dictionary.ts" />
-/// <reference path="../../../node_modules/@types/knockout/index.d.ts" />
-var sf365;
-(function (sf365) {
-    var Model;
-    (function (Model) {
-        var SeatsModel = /** @class */ (function () {
-            function SeatsModel(settings) {
-                this.settings = settings;
-                this.init();
-            }
-            SeatsModel.prototype.init = function () {
-                this.Rows = ko.observableArray();
-                this.SeatIndex = {};
-                // initialise the seats using the map
-                var rowIndex = 0;
-                var colIndex = 0;
-                for (var _i = 0, _a = this.settings.SeatMap; _i < _a.length; _i++) {
-                    var row = _a[_i];
-                    colIndex = 0;
-                    var rowItems = new Row();
-                    for (var _b = 0, row_1 = row; _b < row_1.length; _b++) {
-                        var seat = row_1[_b];
-                        var seatItem = new Seat();
-                        seatItem.seatclass = seat;
-                        if (seat !== '_') {
-                            seatItem.name = (this.settings.RowNames ? this.settings.RowNames[rowIndex] : (rowIndex + 1).toString()) + this.settings.ColumnNames[colIndex];
-                            colIndex++;
-                        }
-                        rowItems.Seats.push(seatItem);
-                        this.SeatIndex[seatItem.name] = seatItem;
-                    }
-                    this.Rows.push(rowItems);
-                    rowIndex++;
-                }
-            };
-            return SeatsModel;
-        }());
-        Model.SeatsModel = SeatsModel;
-        var Row = /** @class */ (function () {
-            function Row() {
-                this.Seats = ko.observableArray();
-            }
-            return Row;
-        }());
-        Model.Row = Row;
-        var Seat = /** @class */ (function () {
-            function Seat() {
-                this.passengers = ko.observableArray();
-                //this.passengers.seat = this;
-            }
-            return Seat;
-        }());
-        Model.Seat = Seat;
-    })(Model = sf365.Model || (sf365.Model = {}));
-})(sf365 || (sf365 = {}));
-var sf365;
-(function (sf365) {
-    var libs;
-    (function (libs) {
-        var Guid = /** @class */ (function () {
-            function Guid() {
-            }
-            Guid.compare = function (id1, id2) {
-                return (id1.replace("{", "").replace("}", "").toLowerCase() ==
-                    id2.replace("{", "").replace("}", "").toLowerCase());
-            };
-            return Guid;
-        }());
-        libs.Guid = Guid;
-    })(libs = sf365.libs || (sf365.libs = {}));
-})(sf365 || (sf365 = {}));
-/// <reference path="../lib/sortable.ts" />
-/// <reference path="../../../node_modules/@types/xrm/index.d.ts" />
-/// <reference path="../lib/guid.ts" />
 var sf365;
 (function (sf365) {
     var ViewModels;
@@ -252,68 +170,4 @@ var sf365;
         ViewModels.SelectSeatsViewModel = SelectSeatsViewModel;
     })(ViewModels = sf365.ViewModels || (sf365.ViewModels = {}));
 })(sf365 || (sf365 = {}));
-/// <reference path="../viewmodel/seatselectionviewmodel.ts" />
-/// <reference path="../../../node_modules/@types/xrm/index.d.ts" />
-var sf365;
-(function (sf365) {
-    var Views;
-    (function (Views) {
-        var SelectSeatsView = /** @class */ (function () {
-            function SelectSeatsView() {
-            }
-            SelectSeatsView.init = function () {
-                return __awaiter(this, void 0, void 0, function () {
-                    var flightid, bookingid;
-                    return __generator(this, function (_a) {
-                        switch (_a.label) {
-                            case 0:
-                                this.vm = new sf365.ViewModels.SelectSeatsViewModel();
-                                flightid = Xrm.Page.
-                                    getAttribute("sf365_flightid")
-                                    .getValue();
-                                bookingid = Xrm.Page.data.entity.getId();
-                                // Load Data
-                                return [4 /*yield*/, this.vm.loadSeats(flightid[0].id, bookingid)];
-                            case 1:
-                                // Load Data
-                                _a.sent();
-                                this.vm.PassengerEdited.subscribe(function () {
-                                    console.debug("edited");
-                                    parent.Xrm.Page
-                                        .getAttribute("sf365_seatsmodified")
-                                        .setValue(Date.now().toString());
-                                });
-                                parent.Xrm.Page.data.entity.addOnSave(SelectSeatsView.onSave);
-                                ko.applyBindings(this.vm);
-                                return [2 /*return*/];
-                        }
-                    });
-                });
-            };
-            SelectSeatsView.onSave = function (context) {
-                return __awaiter(this, void 0, void 0, function () {
-                    var ex_1;
-                    return __generator(this, function (_a) {
-                        switch (_a.label) {
-                            case 0:
-                                _a.trys.push([0, 2, , 3]);
-                                return [4 /*yield*/, SelectSeatsView.vm.saveSeatAssignments()];
-                            case 1:
-                                _a.sent();
-                                return [3 /*break*/, 3];
-                            case 2:
-                                ex_1 = _a.sent();
-                                context.getEventArgs().preventDefault();
-                                Xrm.Navigation.openAlertDialog({ text: ex_1.message }, null);
-                                return [3 /*break*/, 3];
-                            case 3: return [2 /*return*/];
-                        }
-                    });
-                });
-            };
-            return SelectSeatsView;
-        }());
-        Views.SelectSeatsView = SelectSeatsView;
-    })(Views = sf365.Views || (sf365.Views = {}));
-})(sf365 || (sf365 = {}));
-//# sourceMappingURL=clienthooks.js.map
+//# sourceMappingURL=seatselectionviewmodel.js.map

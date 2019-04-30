@@ -12,12 +12,14 @@
     "@types/node": "^11.13.6",
     "@types/xrm": "^9.0.14",
     "gulp": "^4.0.1",
+    "gulp-concat": "^2.6.1",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-watch": "^5.0.1"
   },
   "dependencies": {
     "@types/knockout": "^3.4.65",
     "@types/qunit": "^2.5.4",
+    "jquery": "^3.4.0",
     "knockout": "^3.5.0",
     "qunit": "^2.9.2",
     "requirejs": "^2.3.6"
